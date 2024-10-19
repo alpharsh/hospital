@@ -4,10 +4,10 @@ import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import Layout from './Layout.jsx'
-import Home from './pages/Home/Home.jsx'
 import About from './pages/about/About.jsx'
 import Contact from './pages/ContactUs/Contact.jsx'
 import ReactDOM from 'react-dom/client'
+import Home from './pages/home/Home.jsx'
 
 const router= createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<Layout />}>
