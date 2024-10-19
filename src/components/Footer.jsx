@@ -8,8 +8,7 @@ const Footer = () => {
         {/* Left Section: Logo and Description */}
         <div className="flex flex-col items-start">
           <div className="flex items-center mb-4">
-            <img src="/path-to-your-logo.png" alt="Logo" className="h-10" />
-            <span className="ml-2 text-2xl font-bold">Mediic</span>
+            <img src="/logo.png" alt="Logo" className="h-10" />
           </div>
           <p className="text-sm">
             Completely promote interdependent systems for the latest updates in the medical field.

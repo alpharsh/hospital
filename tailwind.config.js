@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Bricolage-Grotesque': ['Bricolage Grotesque', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

@@ -7,7 +7,6 @@ import TreatmentSection from "./TreatmentSection";
 function Home() {
   return (
     <>
-      <div>Home Page of App</div>
       <TreatmentSection />
       <Testimonials />
       <AppointmentCard />

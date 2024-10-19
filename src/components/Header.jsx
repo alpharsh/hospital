@@ -7,8 +7,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center">
-          <img src="/path-to-your-logo.png" alt="Logo" className="h-10" />
-          <span className="ml-2 text-xl font-bold">Mediic</span>
+          <img src="/logo.png" alt="Logo" className="h-10" />
         </div>
 
         {/* Navigation Links */}
