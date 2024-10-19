@@ -4,7 +4,7 @@ import { GiStethoscope } from "react-icons/gi";
 const AppointmentCard = () => {
   return (
     <div className="flex justify-center items-center min-h-full py-24 px-4 sm:px-6 lg:px-8">
-      <div className="relative text-white rounded-3xl overflow-hidden mx-auto shadow-2xl p-12 text-center bg-gray-400 md:w-3/4 h-auto">
+      <div className="relative text-white rounded-3xl overflow-hidden mx-auto shadow-2xl p-12 text-center bg-gray-200 md:w-3/4 h-auto">
         <div
           className="absolute inset-0 z-0 bg-cover bg-center "
           style={{ backgroundImage: "url('/texture.png')" }}
@@ -22,7 +22,7 @@ const AppointmentCard = () => {
           </h2>
           <button className="bg-[#0022FF] flex justify-center mb-6 items-center text-white text-[22px] py-2 px-6 rounded-full hover:bg-[#303e99] transition duration-300">
             <span>MAKE AN APPOINTMENT</span>
-            <span className="ml-2"><GiStethoscope className="font-bold"/></span>
+            <span className="ml-2"><GiStethoscope className="transform -rotate-12 text-3xl"/></span>
           </button>
         </div>
       </div>

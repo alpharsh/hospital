@@ -27,7 +27,7 @@ const TreatmentSection = () => {
   return (
     <div className="py-12 bg-gray-100">
       <h2 className="text-center text-5xl font-Bricolage-Grotesque font-bold mb-8">Provide Best Treatments</h2>
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="flex flex-wrap justify-center w-4/5 mx-auto gap-6">
         {treatments.map((treatment, index) => (
           <div
             key={index}
