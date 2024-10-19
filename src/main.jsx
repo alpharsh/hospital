@@ -5,7 +5,7 @@ import './index.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import Layout from './Layout.jsx'
 import About from './pages/about/About.jsx'
-import About from './pages/contactus/Contact.jsx'
+import Contact from './pages/contactus/Contact.jsx'
 import ReactDOM from 'react-dom/client'
 import Home from './pages/home/Home.jsx'
 
