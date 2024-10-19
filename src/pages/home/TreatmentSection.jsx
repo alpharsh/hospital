@@ -25,20 +25,22 @@ const treatments = [
 
 const TreatmentSection = () => {
   return (
-    <div className="py-12 bg-gray-100">
-      <h2 className="text-center text-5xl font-Bricolage-Grotesque font-bold mb-8">Provide Best Treatments</h2>
-      <div className="flex flex-wrap justify-center w-4/5 mx-auto gap-6">
+    <div className="py-20 bg-gray-100">
+      <h2 className="text-center text-6xl font-Bricolage-Grotesque font-bold mb-8">
+        Provide Best Treatments
+      </h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7 w-4/5 mx-auto">
         {treatments.map((treatment, index) => (
           <div
             key={index}
-            className="max-w-xs bg-white rounded-2xl shadow-lg overflow-hidden transition-transform transform hover:scale-105"
+            className="bg-white rounded-2xl shadow-xl overflow-hidden transition-transform transform hover:scale-105"
           >
             <img
               src={treatment.imageUrl}
               alt={treatment.title}
-              className="w-full h-48 object-cover p-2"
+              className="w-full h-72 object-cover rounded-3xl p-3"
             />
-            <div className="p-2 pt-0 ">
+            <div className="p-2 px-4 pt-0 ">
               <h3 className="text-lg font-bold text-gray-800">{treatment.title}</h3>
               <p className="text-gray-500">{treatment.subtitle}</p>
             </div>

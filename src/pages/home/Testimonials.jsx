@@ -28,7 +28,7 @@ const Testimonials = () => {
 
   return (
     <div className="py-12 bg-gray-200">
-      <h2 className="text-center text-5xl font-Bricolage-Grotesque font-bold mb-8">Testimonials</h2>
+      <h2 className="text-center text-6xl font-Bricolage-Grotesque font-bold mb-8">Testimonials</h2>
       <div className="flex w-4/5 mx-auto flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">
         {testimonials.map((testimonial, index) => (
           <div
