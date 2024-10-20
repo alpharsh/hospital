@@ -55,7 +55,7 @@ function Home() {
       </div>
 
       {/* CARDS SECTION */}
-      <div className=" py-12 bg-gradient-to-b from-[#0063BB] to-white ">
+      <div className=" py-12 bg-gradient-to-b from-[#0074D1] to-white ">
         {/* Achievement Card */}
         <div className="flex absolute top-[42.75rem] left-[9.5rem] items-center justify-between w-4/5 mx-auto bg-white shadow-lg rounded-[3rem] py-6 px-8">
           {/* Image Section */}
