@@ -7,8 +7,10 @@ function Layout() {
   return (
     <>
       <Header />
-      <Outlet />
-      <Footer />
+      <main className="top-0 absolute">
+        <Outlet />
+        <Footer />
+      </main>
     </>
   );
 }

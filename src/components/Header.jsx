@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="bg-gradient-to-r sticky top-0 z-50 bg-black/40 backdrop-blur-xl text-white py-4 px-8 shadow-lg rounded-bl-2xl rounded-br-2xl">
+    <header className="bg-gradient-to-r fixed top-0 z-40 w-full bg-black/40 backdrop-blur-xl text-white py-4 px-8 shadow-lg rounded-bl-2xl rounded-br-2xl">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center">
