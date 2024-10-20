@@ -3,7 +3,7 @@ import React from "react";
 const AboutMedical = () => {
   return (
     <div className="my-14">
-      <div className="w-4/5 mb-6 mx-auto">
+      <div className="w-4/5 lg:max-w-[1200px] mb-6 mx-auto">
         <div className="flex justify-between items-center">
           <h1 className="text-6xl font-Bricolage-Grotesque font-bold">
             About Medical
@@ -16,7 +16,7 @@ const AboutMedical = () => {
         <div className="border-t-2 border-blue-600 w-full my-0 md:my-3"></div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between items-center bg-white rounded-lg w-full md:w-4/5 mx-auto">
+      <div className="flex flex-col md:flex-row justify-between items-center bg-white rounded-lg w-full lg:max-w-[1200px] md:w-4/5 mx-auto">
         {/* Left Section: Image */}
         <div className="w-full md:w-[40%] flex justify-center mb-6 md:mb-0">
           <img

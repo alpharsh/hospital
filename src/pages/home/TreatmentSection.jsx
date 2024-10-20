@@ -29,7 +29,7 @@ const TreatmentSection = () => {
       <h2 className="text-center text-6xl font-Bricolage-Grotesque font-bold mb-8">
         Provide Best Treatments
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7 w-4/5 mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7 lg:max-w-[1200px] w-4/5 mx-auto">
         {treatments.map((treatment, index) => (
           <div
             key={index}

@@ -5,7 +5,7 @@ import { CiMedicalCase } from "react-icons/ci";
 const InfoBanner = () => {
   return (
     <div className="bg-blue-500 text-white py-4">
-      <div className="container mx-auto w-5/6 flex flex-col md:flex-row items-center justify-between px-6">
+      <div className="container lg:max-w-[1200px] mx-auto w-5/6 flex flex-col md:flex-row items-center justify-between px-6">
         {/* Left Section: Icon and Text */}
         <div className="flex items-center space-x-6">
           <div className="bg-white text-blue-500 rounded-full p-8">

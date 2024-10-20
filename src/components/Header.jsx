@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header className="bg-gradient-to-r fixed top-0 z-40 w-full bg-black/40 backdrop-blur-xl text-white py-4 px-8 shadow-lg rounded-bl-2xl rounded-br-2xl">
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container lg:max-w-[1200px] mx-auto flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center">
           <img src="/logo.png" alt="Logo" className="h-10" />

@@ -115,7 +115,7 @@ function Services() {
       </div>
 
       {/* CARDS */}
-      <div className="py-12 w-4/5 mt-8 mx-auto ">
+      <div className="py-12 mt-8 w-4/5 mx-auto ">
         <h2 className="text-center text-5xl font-bold text-blue-700 mb-8 font-Bricolage-Grotesque">
           Centers of Excellence
         </h2>
@@ -142,7 +142,7 @@ function Services() {
       </div>
 
       {/* DOCTORS */}
-      <div className="py-12 w-4/5 mx-auto">
+      <div className="py-12 w-4/5 mx-auto lg:max-w-[1200px]">
         <h2 className="text-center text-5xl font-bold text-blue-700 mb-8 font-Bricolage-Grotesque">
           Our Specialist Doctors
         </h2>

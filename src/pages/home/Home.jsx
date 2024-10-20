@@ -57,7 +57,7 @@ function Home() {
       {/* CARDS SECTION */}
       <div className=" py-12 bg-gradient-to-b from-[#0074D1] to-white ">
         {/* Achievement Card */}
-        <div className="flex absolute top-[42.75rem] left-[9.5rem] items-center justify-between w-4/5 mx-auto bg-white shadow-lg rounded-[3rem] py-6 px-8">
+        <div className="flex lg:max-w-[1200px] absolute top-[42.75rem] left-[10rem] items-center justify-between w-4/5 mx-auto bg-white shadow-lg rounded-[3rem] py-6 px-8">
           {/* Image Section */}
           <div className="flex-shrink-0">
             <img
@@ -88,7 +88,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="flex w-4/5 mt-24 mx-auto flex-col lg:flex-row justify-around items-center">
+        <div className="flex w-4/5 lg:max-w-[1200px] mt-24 mx-auto flex-col lg:flex-row justify-around items-center">
           {/* Professional Section */}
           <div className="flex flex-col space-y-4 items-center text-center bg-white p-8 rounded-3xl  w-full  mx-4 my-4">
             <h3 className="text-3xl font-bold mb-7">OUR PROFESSIONAL</h3>
