@@ -6,12 +6,14 @@ import About from './pages/about/About.jsx'
 import Contact from './pages/contactus/Contact.jsx'
 import ReactDOM from 'react-dom/client'
 import Home from './pages/home/Home.jsx'
+import Services from './pages/services/Services.jsx'
 
 const router= createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<Layout />}>
     <Route path='' element={<Home />}/>
     <Route path='about' element={<About />}/>
     <Route path='contact' element={<Contact />}/>
+    <Route path='services' element={<Services />}/>
   </Route>
 ))
 
