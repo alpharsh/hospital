@@ -17,7 +17,7 @@ function About() {
         </div>
       </div>
 
-      <div className="w-4/5 mx-auto mt-8 mb-20">
+      <div className="w-4/5 lg:max-w-[1200px] mx-auto mt-8 mb-20">
         <h2 className="text-5xl font-bold mb-4 font-Bricolage-Grotesque">About Us</h2>
         <p className="text-lg text-gray-700 leading-relaxed">
           Fortis Healthcare Limited – an IHH Healthcare Berhad Company – is a
