@@ -7,7 +7,7 @@ function Layout() {
   return (
     <>
       <Header />
-      <main className="top-0 absolute">
+      <main className="top-0 absolute w-screen">
         <Outlet />
         <Footer />
       </main>

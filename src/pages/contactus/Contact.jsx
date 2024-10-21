@@ -21,7 +21,7 @@ function Contact() {
       </div>
 
       {/* Appointment Section */}
-      <div className="flex flex-col w-4/5 mx-auto lg:flex-row items-center justify-center lg:space-x-12 p-8 lg:p-16 bg-white">
+      <div className="flex flex-col lg:max-w-[1200px] w-4/5 mx-auto lg:flex-row items-center justify-center lg:space-x-12 p-8 lg:p-16 bg-white">
         <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
           <h2 className="text-5xl font-bold text-blue-700 mb-4 font-Bricolage-Grotesque">
             Make Appointment

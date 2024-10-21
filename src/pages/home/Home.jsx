@@ -8,10 +8,11 @@ import AboutMedical from "./AboutMedical";
 
 function Home() {
   return (
-    <>
+    <div className="">
       {/* HERO SECTION */}
       <div className="relative flex items-center justify-between w-full h-[47rem] bg-gradient-to-b from-[#002570] to-[#0074D1]">
-        {/* Left Section: Text Content */}
+        <div>
+          {/* Left Section: Text Content */}
         <div className="text-white  p-10 sm:pl-16 z-10">
           <h1 className="flex items-end font-Bricolage-Grotesque text-7xl font-bold leading-tight mb-4">
             We Provide Best <br />
@@ -51,6 +52,7 @@ function Home() {
         {/* Right Section: Doctor Image */}
         <div className="absolute right-0 bottom-0 h-full">
           <img src="/hero.png" alt="Doctor" className="h-full object-cover" />
+        </div>
         </div>
       </div>
 
@@ -134,7 +136,7 @@ function Home() {
       <Testimonials />
       <AppointmentCard />
       <InfoBanner />
-    </>
+    </div>
   );
 }
 
