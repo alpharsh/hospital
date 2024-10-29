@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -12,18 +12,38 @@ const Header = () => {
 
         {/* Navigation Links */}
         <nav className="hidden md:flex space-x-8">
-          <Link to="" className="text-white hover:text-gray-300">
+          <NavLink
+            to="/"
+            className={({ isActive }) => 
+              isActive ? "text-blue-400" : "text-white hover:text-gray-300"
+            }
+          >
             Home
-          </Link>
-          <Link to="/about" className="text-white hover:text-gray-300">
+          </NavLink>
+          <NavLink
+            to="/about"
+            className={({ isActive }) => 
+              isActive ? "text-blue-400" : "text-white hover:text-gray-300"
+            }
+          >
             About
-          </Link>
-          <Link to="/services" className="text-white hover:text-gray-300">
+          </NavLink>
+          <NavLink
+            to="/services"
+            className={({ isActive }) => 
+              isActive ? "text-blue-400" : "text-white hover:text-gray-300"
+            }
+          >
             Services
-          </Link>
-          <Link to="/contact" className="text-white hover:text-gray-300">
+          </NavLink>
+          <NavLink
+            to="/contact"
+            className={({ isActive }) => 
+              isActive ? "text-blue-400" : "text-white hover:text-gray-300"
+            }
+          >
             Contact
-          </Link>
+          </NavLink>
         </nav>
 
         {/* For mobile, add a menu icon (optional) */}
