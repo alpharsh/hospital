@@ -9,17 +9,17 @@ const treatments = [
   {
     title: "X-RAY",
     subtitle: "Digital X-Ray",
-    imageUrl: "/tr2.png",
+    imageUrl: "/tr1.png",
   },
   {
     title: "DENTAL",
     subtitle: "Digital X-Ray",
-    imageUrl: "/tr3.png",
+    imageUrl: "/tr1.png",
   },
   {
     title: "CARDIO",
     subtitle: "Digital X-Ray",
-    imageUrl: "/tr4.png",
+    imageUrl: "/tr1.png",
   },
 ];
 
