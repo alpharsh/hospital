@@ -3,11 +3,11 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="bg-gradient-to-r fixed top-0 z-40 w-full bg-black/40 backdrop-blur-xl text-white py-4 px-8 shadow-lg rounded-bl-2xl rounded-br-2xl">
+    <header className="bg-gradient-to-r fixed top-0 z-40 w-full bg-black/20 backdrop-blur-xl text-white py-2 px-8 shadow-lg rounded-bl-2xl rounded-br-2xl">
       <div className="container lg:max-w-[1200px] mx-auto flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center">
-          <img src="/logo.png" alt="Logo" className="h-10" />
+          <img src="/logo2.png" alt="Logo" className="h-14" />
         </div>
 
         {/* Navigation Links */}
@@ -15,7 +15,7 @@ const Header = () => {
           <NavLink
             to="/"
             className={({ isActive }) => 
-              isActive ? "text-blue-400" : "text-white hover:text-gray-300"
+              isActive ? "text-blue-500 border-b-2 rounded-md border-blue-500" : "text-white"
             }
           >
             Home
@@ -23,7 +23,7 @@ const Header = () => {
           <NavLink
             to="/about"
             className={({ isActive }) => 
-              isActive ? "text-blue-400" : "text-white hover:text-gray-300"
+              isActive ? "text-blue-500 border-b-2 rounded-md border-blue-500" : "text-white"
             }
           >
             About
@@ -31,7 +31,7 @@ const Header = () => {
           <NavLink
             to="/services"
             className={({ isActive }) => 
-              isActive ? "text-blue-400" : "text-white hover:text-gray-300"
+              isActive ? "text-blue-500 border-b-2 rounded-md border-blue-500" : "text-white"
             }
           >
             Services
@@ -39,7 +39,7 @@ const Header = () => {
           <NavLink
             to="/contact"
             className={({ isActive }) => 
-              isActive ? "text-blue-400" : "text-white hover:text-gray-300"
+              isActive ? "text-blue-500 border-b-2 rounded-md border-blue-500" : "text-white"
             }
           >
             Contact
