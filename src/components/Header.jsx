@@ -3,11 +3,11 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="bg-gradient-to-r fixed top-0 z-40 w-full bg-black/20 backdrop-blur-xl text-white py-2 px-8 shadow-lg rounded-bl-2xl rounded-br-2xl">
+    <header className="bg-gradient-to-r fixed top-0 z-40 w-full bg-black/30 backdrop-blur-xl text-white py-2 px-8 shadow-lg rounded-bl-2xl rounded-br-2xl">
       <div className="container lg:max-w-[1200px] mx-auto flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center">
-          <img src="/logo2.png" alt="Logo" className="h-14" />
+          <img src="/rdmlogowhite.png" alt="Logo" className="h-14" />
         </div>
 
         {/* Navigation Links */}
