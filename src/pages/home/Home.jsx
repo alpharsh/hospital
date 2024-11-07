@@ -8,7 +8,7 @@ import AboutMedical from "./AboutMedical";
 
 function Home() {
   return (
-    <div className="">
+    <div className=" overflow-hidden">
       {/* HERO SECTION */}
       <div className="relative flex items-center justify-between w-full h-[47rem] bg-gradient-to-b from-[#002570] to-[#0074D1]">
         <div className="absolute left-0 top-0 z-10">
@@ -90,7 +90,7 @@ function Home() {
 
       {/* CARDS SECTION */}
       <div className="pt-0 py-12 bg-gradient-to-b from-[#0074D1] to-white relative custom-shadow">
-        <div className="absolute left-[30rem] -top-60 z-0">
+        <div className="absolute left-[30rem] -top-60 z-0 hidden md:block">
           <svg
             width="485"
             height="509"
@@ -106,7 +106,7 @@ function Home() {
           </svg>
         </div>
         {/* Achievement Card */}
-        <div className="flex lg:max-w-[1200px] items-center justify-between w-4/5 mx-auto bg-white shadow-2xl shadow-[#0074D1] rounded-[3rem] py-6 px-8 relative z-10">
+        <div className="flex lg:max-w-[1200px] items-center justify-between w-4/5 mx-auto bg-white shadow-2xl shadow-[#0074D1] rounded-[3rem] py-6 px-8 relative z-10 overflow-hidden">
           {/* Image Section */}
           <div className="flex-shrink-0">
             <img

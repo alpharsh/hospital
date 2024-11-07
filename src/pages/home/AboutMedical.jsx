@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMedical = () => {
   return (
-    <div className="my-14">
+    <div className="my-14 overflow-hidden">
       <div className="w-4/5 lg:max-w-[1200px] mb-6 mx-auto">
         <div className="flex justify-between items-center">
           <h1 className="text-6xl font-Bricolage-Grotesque font-bold">

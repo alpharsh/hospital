@@ -14,7 +14,7 @@ const AppointmentCard = () => {
           style={{ backgroundImage: "url('/steth.png')" }}
         ></div>
         <div className="relative z-20 flex flex-col items-center">
-          <h4 className="text-7xl font-bold mb-4 font-Bricolage-Grotesque text-[#0022FF]">
+          <h4 className="text-6xl md:text-7xl font-bold mb-4 font-Bricolage-Grotesque text-[#0022FF]">
             Make Appointment
           </h4>
           <h2 className="text-2xl text-[#0022FF] md:text-2xl font-semibold leading-tight mb-10 mx-auto md:w-7/12">
