@@ -30,3 +30,15 @@
 *::-webkit-scrollbar-thumb:hover {
   background-color: #cacaca;
 }
+
+.custom-shadow::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  height: 160px;
+  box-shadow: 0px -20px 30px #0074D1;
+  z-index: 20;
+}
