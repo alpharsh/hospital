@@ -26,7 +26,7 @@ const treatments = [
 const TreatmentSection = () => {
   return (
     <div className="py-20 bg-gray-100">
-      <h2 className="text-center text-6xl font-Bricolage-Grotesque font-bold mb-8">
+      <h2 className="text-center text-4xl md:text-6xl font-Bricolage-Grotesque font-bold mb-8">
         Provide Best Treatments
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7 lg:max-w-[1200px] w-4/5 mx-auto">

@@ -28,12 +28,12 @@ const Testimonials = () => {
 
   return (
     <div className="py-12 bg-gray-200">
-      <h2 className="text-center text-6xl font-Bricolage-Grotesque font-bold mb-8">Testimonials</h2>
+      <h2 className="text-center text-4xl md:text-6xl font-Bricolage-Grotesque font-bold mb-8">Testimonials</h2>
       <div className="flex w-4/5 mx-auto lg:max-w-[1200px] flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
-            className={`p-6 rounded-xl shadow-xl ${
+            className={`p-4 md:p-6 rounded-xl shadow-xl ${
               testimonial.featured
                 ? "bg-blue-900 text-white"
                 : "bg-white text-[#0022FF]"
@@ -48,8 +48,7 @@ const Testimonials = () => {
                   }`}
                 >
                   <svg
-                    width="50"
-                    height="50"
+                    className="w-10 md:w-12 h-10 md:h-12"
                     viewBox="0 0 51 51"
                     fill={testimonial.featured ? "#E0E0E0" : "#1500FF"}
                     xmlns="http://www.w3.org/2000/svg"
@@ -67,8 +66,7 @@ const Testimonials = () => {
             <p className="text-center text-lg mb-4">{testimonial.role}</p>
             <div className="flex justify-center mb-7 text-center">
               <svg
-                width="43"
-                height="37"
+                className="w-10"
                 viewBox="0 0 43 37"
                 fill={testimonial.featured ? "#E0E0E0" : "#1500FF"}
                 xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +78,7 @@ const Testimonials = () => {
               </svg>
             </div>
 
-            <blockquote className="text-center text-xl italic">
+            <blockquote className="text-center text-base md:text-xl leading-tight italic">
               "{testimonial.quote}"
             </blockquote>
           </div>
