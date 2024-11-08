@@ -33,12 +33,12 @@ const TreatmentSection = () => {
         {treatments.map((treatment, index) => (
           <div
             key={index}
-            className="bg-white rounded-2xl shadow-xl overflow-hidden transition-transform transform hover:scale-105"
+            className="bg-white rounded-2xl shadow-xl overflow-hidden transition-transform transform "
           >
             <img
               src={treatment.imageUrl}
               alt={treatment.title}
-              className="w-full h-72 object-cover rounded-3xl p-3"
+              className="w-full h-64 md:h-72 object-cover rounded-3xl p-3"
             />
             <div className="p-2 px-4 pt-0 ">
               <h3 className="text-lg font-bold text-gray-800">{treatment.title}</h3>

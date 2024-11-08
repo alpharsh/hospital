@@ -32,8 +32,8 @@ function Home() {
             <h1 className="flex items-end font-Bricolage-Grotesque text-4xl md:text-7xl font-bold leading-tight mb-4">
               We Provide Best <br />
               Healthcare{" "}
-              <div className="absolute left-[28rem]">
-                <img src="/heart.png" alt="heart" />
+              <div className="absolute left-60 md:left-[28rem]">
+                <img src="/heart.png" alt="heart" className="w-12 md:w-16"/>
               </div>
             </h1>
             <p className="mb-8 font-Bricolage-Grotesque text-lg max-w-lg">
@@ -66,7 +66,7 @@ function Home() {
             </a>
           </div>
 
-          <div className="absolute right-32 top-0">
+          <div className="absolute hidden md:block right-32 top-0">
             <svg
               width="485"
               height="509"
@@ -106,9 +106,9 @@ function Home() {
           </svg>
         </div>
         {/* Achievement Card */}
-        <div className="flex lg:max-w-[1200px] items-center justify-between w-4/5 mx-auto bg-white shadow-2xl shadow-[#0074D1] rounded-[3rem] py-6 px-8 relative z-10 overflow-hidden">
+        <div className="flex flex-col md:flex-row lg:max-w-[1200px] items-center justify-between w-[95%] md:w-4/5 mx-auto bg-white shadow-2xl shadow-[#0074D1] rounded-[3rem] py-3 md:py-6 px-8 relative z-10 overflow-hidden">
           {/* Image Section */}
-          <div className="flex-shrink-0">
+          <div className="hidden md:block flex-shrink-0">
             <img
               src="/achievement.png"
               alt="Medical Achievement"
@@ -117,9 +117,12 @@ function Home() {
           </div>
 
           {/* Text Section */}
-          <div className="w-96">
-            <h3 className="text-3xl font-semibold font-Bricolage-Grotesque text-blue-600">
+          <div className="w-96 flex justify-center">
+            <h3 className="text-xl hidden md:block md:text-3xl font-semibold font-Bricolage-Grotesque text-blue-600">
               Medical Achievement Health Protection
+            </h3>
+            <h3 className="text-2xl mb-2 md:hidden md:text-3xl font-semibold font-Bricolage-Grotesque text-blue-600">
+              Medical Achievement
             </h3>
           </div>
 
@@ -128,12 +131,12 @@ function Home() {
             <div className="text-center">
               <p className="text-3xl font-bold text-black">12+</p>
               <hr className="border border-blue-300 w-full mt-1" />
-              <p className="text-gray-600">Satisfied Patients</p>
+              <p className="text-gray-600 leading-tight">Satisfied Patients</p>
             </div>
             <div className="text-center">
               <p className="text-3xl font-bold text-black">100%</p>
               <hr className="border border-blue-300 w-full mt-1" />
-              <p className="text-gray-600">Satisfaction Rates</p>
+              <p className="text-gray-600 leading-tight">Satisfaction Rates</p>
             </div>
           </div>
         </div>
@@ -149,7 +152,7 @@ function Home() {
             <p className="text-2xl md:text-3xl font-bold mb-2 font-Bricolage-Grotesque">
               90+ Doctors
             </p>
-            <p className="text-xl leading-tight text-gray-600">
+            <p className="text-base md:text-xl leading-tight text-gray-600">
               Rapidiously reinvent long-term impact collaboration
             </p>
           </div>
@@ -161,7 +164,7 @@ function Home() {
             <p className="text-2xl md:text-3xl font-bold mb-2 font-Bricolage-Grotesque">
               +123 (4567) 890
             </p>
-            <p className="text-xl leading-tight text-gray-600">
+            <p className="text-base md:text-xl leading-tight text-gray-600">
               Call Us for Booking appointments online 24 hrs available
             </p>
           </div>
@@ -171,7 +174,7 @@ function Home() {
             <h3 className="text-2xl md:text-3xl font-bold mb-7">LOCATION</h3>
             <img src="/img3.png" alt="Location" className="w-28 h-28 mb-4" />
             <p className="text-2xl md:text-3xl font-semibold mb-2">Locate Us</p>
-            <p className="text-xl leading-tight text-gray-600">
+            <p className="text-base md:text-xl leading-tight text-gray-600">
               Rapaciously reinvent long-term impact collaboration
             </p>
           </div>
