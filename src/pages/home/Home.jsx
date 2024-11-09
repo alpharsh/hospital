@@ -106,7 +106,7 @@ function Home() {
           </svg>
         </div>
         {/* Achievement Card */}
-        <div className="flex flex-col md:flex-row lg:max-w-[1200px] items-center justify-between w-[95%] md:w-4/5 mx-auto bg-white shadow-2xl shadow-[#0074D1] rounded-[3rem] py-3 md:py-6 px-8 relative z-10 overflow-hidden">
+        <div className="flex flex-col md:flex-row lg:max-w-[1200px] items-center justify-between w-[95%] md:w-4/5 mx-auto bg-white shadow-2xl shadow-[#0074D1] rounded-3xl md:rounded-[3rem] py-3 md:py-6 px-8 relative z-10 overflow-hidden">
           {/* Image Section */}
           <div className="hidden md:block flex-shrink-0">
             <img

@@ -42,3 +42,18 @@
   box-shadow: 0px -20px 30px #0074D1;
   z-index: 20;
 }
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: 200%; /* Twice the width for smooth looping */
+  animation: marquee 15s linear infinite;
+}

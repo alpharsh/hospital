@@ -4,21 +4,21 @@ const AboutMedical = () => {
   return (
     <div className="my-14 overflow-hidden">
       <div className="w-4/5 lg:max-w-[1200px] mb-6 mx-auto">
-        <div className="flex justify-between items-center">
-          <h1 className="text-6xl font-Bricolage-Grotesque font-bold">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
+          <h1 className="text-3xl md:text-6xl font-Bricolage-Grotesque font-bold">
             About Medical
           </h1>
-          <div className="flex items-center space-x-7 font-Bricolage-Grotesque">
+          <div className="flex items-center space-x-3 md:space-x-7 font-Bricolage-Grotesque">
             <div className="text-4xl font-bold">10+</div>
-            <div className="w-1/2 text-xl">YEARS OF EXPERIENCE</div>
+            <div className="w-1/2 md:text-xl">YEARS OF EXPERIENCE</div>
           </div>
         </div>
         <div className="border-t-2 border-blue-600 w-full my-0 md:my-3"></div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between items-center bg-white rounded-lg w-full lg:max-w-[1200px] md:w-4/5 mx-auto">
+      <div className="flex flex-col md:flex-row justify-between items-center bg-white rounded-lg lg:max-w-[1200px] w-4/5 mx-auto">
         {/* Left Section: Image */}
-        <div className="w-full md:w-[40%] flex justify-center mb-6 md:mb-0">
+        <div className="md:w-[40%] flex justify-center mb-6 md:mb-0">
           <img
             src="/doc.png"
             alt="Medical Professional"
@@ -29,7 +29,7 @@ const AboutMedical = () => {
         <div className="w-full md:w-1/2 space-y-4">
           {/* About Us Description */}
           <h3 className="text-4xl font-semibold">About Us</h3>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-tight">
             Since 2007 We're working Medical group of more than 1200+ Patients
             help from our medical.
           </p>
