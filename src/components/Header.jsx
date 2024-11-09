@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gradient-to-r fixed top-0 z-40 w-full bg-[#002570]/60 backdrop-blur-xl text-white py-1 md:py-2 px-8 shadow-lg rounded-bl-2xl rounded-br-2xl">
+    <header className="bg-gradient-to-r fixed top-0 z-50 w-full bg-[#002570]/80 backdrop-blur-xl text-white py-1 md:py-2 px-8 shadow-lg rounded-bl-2xl rounded-br-2xl">
       <div className="container lg:max-w-[1200px] mx-auto flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center">
@@ -106,60 +106,59 @@ const Header = () => {
       </div>
 
       {/* Mobile Menu */}
-      {isOpen && (
-        <div
-          className={`md:hidden absolute p-10 left-0 w-full bg-black/70 backdrop-blur-xl text-white transition-all duration-500 ease-in-out transform ${
-            isOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
-          }`}
-        >
-          <nav className="flex flex-col items-center space-y-4 py-6">
-            <NavLink
-              to="/"
-              onClick={() => setIsOpen(false)}
-              className={({ isActive }) =>
-                isActive
-                  ? "text-blue-500 border-b-2 rounded-md border-blue-500"
-                  : "text-white"
-              }
-            >
-              Home
-            </NavLink>
-            <NavLink
-              to="/about"
-              onClick={() => setIsOpen(false)}
-              className={({ isActive }) =>
-                isActive
-                  ? "text-blue-500 border-b-2 rounded-md border-blue-500"
-                  : "text-white"
-              }
-            >
-              About
-            </NavLink>
-            <NavLink
-              to="/services"
-              onClick={() => setIsOpen(false)}
-              className={({ isActive }) =>
-                isActive
-                  ? "text-blue-500 border-b-2 rounded-md border-blue-500"
-                  : "text-white"
-              }
-            >
-              Services
-            </NavLink>
-            <NavLink
-              to="/contact"
-              onClick={() => setIsOpen(false)}
-              className={({ isActive }) =>
-                isActive
-                  ? "text-blue-500 border-b-2 rounded-md border-blue-500"
-                  : "text-white"
-              }
-            >
-              Contact
-            </NavLink>
-          </nav>
-        </div>
-      )}
+      <div
+        className={`md:hidden fixed top-0 left-0 rounded-2xl w-full bg-[#002570]/70 backdrop-blur-lg text-white overflow-hidden transition-all duration-700 ease-[cubic-bezier(0.68,-0.55,0.27,1.55)] transform ${
+          isOpen ? "translate-y-[72px] opacity-100" : "-translate-y-full opacity-0"
+        }`}
+        style={{ zIndex: isOpen ? 40 : -1 }}
+      >
+        <nav className="flex flex-col backdrop-blur-3xl items-center space-y-4 py-6">
+          <NavLink
+            to="/"
+            onClick={() => setIsOpen(false)}
+            className={({ isActive }) =>
+              isActive
+                ? "text-blue-500 border-b-2 rounded-md border-blue-500"
+                : "text-white"
+            }
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to="/about"
+            onClick={() => setIsOpen(false)}
+            className={({ isActive }) =>
+              isActive
+                ? "text-blue-500 border-b-2 rounded-md border-blue-500"
+                : "text-white"
+            }
+          >
+            About
+          </NavLink>
+          <NavLink
+            to="/services"
+            onClick={() => setIsOpen(false)}
+            className={({ isActive }) =>
+              isActive
+                ? "text-blue-500 border-b-2 rounded-md border-blue-500"
+                : "text-white"
+            }
+          >
+            Services
+          </NavLink>
+          <NavLink
+            to="/contact"
+            onClick={() => setIsOpen(false)}
+            className={({ isActive }) =>
+              isActive
+                ? "text-blue-500 border-b-2 rounded-md border-blue-500"
+                : "text-white"
+            }
+          >
+            Contact
+          </NavLink>
+        </nav>
+      </div>
     </header>
   );
 };
