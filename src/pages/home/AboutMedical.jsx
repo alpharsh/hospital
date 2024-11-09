@@ -63,7 +63,7 @@ const AboutMedical = () => {
           </ul>
 
           {/* Button */}
-          <button className="mt-6 px-6 py-2 bg-blue-600 text-white text-lg font-semibold rounded-full hover:bg-blue-700 transition flex items-center">
+          <button className="mt-6 px-4 md:px-6 py-1 md:py-2 bg-blue-600 text-white text-base md:text-lg font-semibold rounded-full hover:bg-blue-700 transition flex items-center">
             More About <span className="ml-2">&#8594;</span>
           </button>
         </div>

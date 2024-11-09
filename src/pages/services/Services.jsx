@@ -101,22 +101,22 @@ function Services() {
   return (
     <div>
       <div
-        className="relative h-[31rem] bg-cover bg-center rounded-[3rem]"
+        className="relative h-[18rem] md:h-[31rem] bg-cover bg-center rounded-3xl md:rounded-[3rem]"
         style={{ backgroundImage: `url('/servicesimg.png')` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-t from-[#002570] rounded-[3rem] flex justify-center items-end">
+        <div className="absolute inset-0 bg-gradient-to-t from-[#002570] rounded-3xl md:rounded-[3rem] flex justify-center items-end">
           <div className="text-center text-white pb-8">
-            <h1 className="text-7xl font-bold font-Bricolage-Grotesque">
+            <h1 className="text-4xl md:text-7xl font-bold font-Bricolage-Grotesque">
               Services
             </h1>
-            <p className="mt-2 font-Bricolage-Grotesque">HOME / SERVICES</p>
+            <p className="mt-2 text-xs md:text-base font-Bricolage-Grotesque">HOME / SERVICES</p>
           </div>
         </div>
       </div>
 
       {/* CARDS */}
-      <div className="py-12 mt-8 lg:max-w-[1200px] w-4/5 mx-auto ">
-        <h2 className="text-center text-5xl font-bold text-blue-700 mb-8 font-Bricolage-Grotesque">
+      <div className="py-12 md:mt-8 lg:max-w-[1200px] w-11/12 md:w-4/5 mx-auto ">
+        <h2 className="text-center text-3xl md:text-5xl font-bold text-blue-700 mb-8 font-Bricolage-Grotesque">
           Centers of Excellence
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
@@ -142,8 +142,8 @@ function Services() {
       </div>
 
       {/* DOCTORS */}
-      <div className="py-12 w-4/5 mx-auto lg:max-w-[1200px]">
-        <h2 className="text-center text-5xl font-bold text-blue-700 mb-8 font-Bricolage-Grotesque">
+      <div className="py-12 w-11/12 md:w-4/5 mx-auto lg:max-w-[1200px]">
+        <h2 className="text-center text-3xl md:text-5xl font-bold text-blue-700 mb-8 font-Bricolage-Grotesque">
           Our Specialist Doctors
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-4">

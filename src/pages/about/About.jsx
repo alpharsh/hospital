@@ -6,19 +6,19 @@ function About() {
   return (
     <div>
       <div
-        className="relative h-[31rem] bg-cover bg-center rounded-[3rem]"
+        className="relative h-[18rem] md:h-[31rem] bg-cover bg-center rounded-3xl md:rounded-[3rem]"
         style={{ backgroundImage: `url('/aboutushosp.png')` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-t from-[#002570] rounded-[3rem] flex justify-center items-end">
+        <div className="absolute inset-0 bg-gradient-to-t from-[#002570] rounded-3xl md:rounded-[3rem] flex justify-center items-end">
           <div className="text-center text-white pb-8">
-            <h1 className="text-7xl font-bold font-Bricolage-Grotesque">About Us</h1>
-            <p className="mt-2 font-Bricolage-Grotesque">HOME / ABOUT US</p>
+            <h1 className="text-4xl md:text-7xl font-bold font-Bricolage-Grotesque">About Us</h1>
+            <p className="mt-2 text-xs md:text-base font-Bricolage-Grotesque">HOME / ABOUT US</p>
           </div>
         </div>
       </div>
 
       <div className="w-4/5 lg:max-w-[1200px] mx-auto mt-8 mb-20">
-        <h2 className="text-5xl font-bold mb-4 font-Bricolage-Grotesque">About Us</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-4 font-Bricolage-Grotesque">About Us</h2>
         <p className="text-lg text-gray-700 leading-relaxed">
           Fortis Healthcare Limited – an IHH Healthcare Berhad Company – is a
           leading integrated healthcare services provider in India. It is one of
@@ -33,13 +33,13 @@ function About() {
         </p>
       </div>
       <AboutMedical />
-      <div className="flex lg:max-w-[1200px] flex-col lg:flex-row items-center gap-8 w-4/5 mx-auto py-16 px-4">
+      <div className="flex lg:max-w-[1200px] flex-col lg:flex-row items-center gap-8 w-11/12 md:w-4/5 mx-auto py-5 md:py-16 px-4">
       {/* Text Section */}
       <div className="lg:w-1/2 text-center lg:text-left">
-        <h2 className="text-6xl font-bold mb-4 font-Bricolage-Grotesque">Our Happy Patients</h2>
+        <h2 className="text-3xl md:text-6xl font-bold mb-4 font-Bricolage-Grotesque">Our Happy Patients</h2>
         <p className="text-lg text-gray-600 mb-8">
           Professional without enterprise e-commerce. Uniquely happy clients
-          innovative technologies via team member.
+          innovative technologies via team member.``
         </p>
 
         {/* Testimonial Card */}

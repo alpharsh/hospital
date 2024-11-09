@@ -7,26 +7,26 @@ function Contact() {
   return (
     <div>
       <div
-        className="relative h-[31rem] bg-cover bg-center rounded-[3rem]"
+        className="relative h-[18rem] md:h-[31rem] bg-cover bg-center rounded-3xl md:rounded-[3rem]"
         style={{ backgroundImage: `url('/aboutushosp.png')` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-t from-[#002570] rounded-[3rem] flex justify-center items-end">
+        <div className="absolute inset-0 bg-gradient-to-t from-[#002570] rounded-3xl md:rounded-[3rem] flex justify-center items-end">
           <div className="text-center text-white pb-8">
-            <h1 className="text-7xl font-bold font-Bricolage-Grotesque">
+            <h1 className="text-4xl md:text-7xl font-bold font-Bricolage-Grotesque">
               Contact Us
             </h1>
-            <p className="mt-2 font-Bricolage-Grotesque">HOME / CONTACT US</p>
+            <p className="mt-2 text-xs md:text-base font-Bricolage-Grotesque">HOME / CONTACT US</p>
           </div>
         </div>
       </div>
 
       {/* Appointment Section */}
-      <div className="flex flex-col lg:max-w-[1200px] w-4/5 mx-auto lg:flex-row items-center justify-center lg:space-x-12 p-8 lg:p-16 bg-white">
+      <div className="flex flex-col lg:max-w-[1200px] w-11/12 md:w-4/5 mx-auto lg:flex-row items-center justify-center lg:space-x-12 p-4 py-10 lg:p-16 bg-white">
         <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-          <h2 className="text-5xl font-bold text-blue-700 mb-4 font-Bricolage-Grotesque">
+          <h2 className="text-3xl md:text-5xl font-bold text-blue-700 mb-3 md:mb-4 font-Bricolage-Grotesque">
             Make Appointment
           </h2>
-          <p className="text-gray-600 text-xl mb-6">
+          <p className="text-gray-600 text-[1rem] md:text-xl leading-tight mb-6">
             Make an Online Appointment Booking For Treatment Patients
           </p>
           <form className="space-y-6">

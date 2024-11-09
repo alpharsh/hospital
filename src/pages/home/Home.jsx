@@ -33,7 +33,7 @@ function Home() {
               We Provide Best <br />
               Healthcare{" "}
               <div className="absolute left-60 md:left-[28rem]">
-                <img src="/heart.png" alt="heart" className="w-12 md:w-16"/>
+                <img src="/heart.png" alt="heart" className="w-12 md:w-16 animate-wood-animation"/>
               </div>
             </h1>
             <p className="mb-8 font-Bricolage-Grotesque text-lg max-w-lg">

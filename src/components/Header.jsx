@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +13,9 @@ const Header = () => {
       <div className="container lg:max-w-[1200px] mx-auto flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center">
-          <img src="/rdmlogowhite.png" alt="Logo" className="h-11 md:h-14" />
+          <Link to="/">
+            <img src="/rdmlogowhite.png" alt="Logo" className="h-11 md:h-14" />
+          </Link>
         </div>
 
         {/* Navigation Links for Desktop */}
@@ -22,8 +24,8 @@ const Header = () => {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? 'text-blue-500 border-b-2 rounded-md border-blue-500'
-                : 'text-white'
+                ? "text-blue-500 border-b-2 rounded-md border-blue-500"
+                : "text-white"
             }
           >
             Home
@@ -32,8 +34,8 @@ const Header = () => {
             to="/about"
             className={({ isActive }) =>
               isActive
-                ? 'text-blue-500 border-b-2 rounded-md border-blue-500'
-                : 'text-white'
+                ? "text-blue-500 border-b-2 rounded-md border-blue-500"
+                : "text-white"
             }
           >
             About
@@ -42,8 +44,8 @@ const Header = () => {
             to="/services"
             className={({ isActive }) =>
               isActive
-                ? 'text-blue-500 border-b-2 rounded-md border-blue-500'
-                : 'text-white'
+                ? "text-blue-500 border-b-2 rounded-md border-blue-500"
+                : "text-white"
             }
           >
             Services
@@ -52,8 +54,8 @@ const Header = () => {
             to="/contact"
             className={({ isActive }) =>
               isActive
-                ? 'text-blue-500 border-b-2 rounded-md border-blue-500'
-                : 'text-white'
+                ? "text-blue-500 border-b-2 rounded-md border-blue-500"
+                : "text-white"
             }
           >
             Contact
@@ -106,8 +108,8 @@ const Header = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div
-          className={`md:hidden absolute p-24 left-0 w-full bg-black/70 backdrop-blur-xl text-white transition-all duration-500 ease-in-out transform ${
-            isOpen ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
+          className={`md:hidden absolute p-10 left-0 w-full bg-black/70 backdrop-blur-xl text-white transition-all duration-500 ease-in-out transform ${
+            isOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
           }`}
         >
           <nav className="flex flex-col items-center space-y-4 py-6">
@@ -116,8 +118,8 @@ const Header = () => {
               onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive
-                  ? 'text-blue-500 border-b-2 rounded-md border-blue-500'
-                  : 'text-white'
+                  ? "text-blue-500 border-b-2 rounded-md border-blue-500"
+                  : "text-white"
               }
             >
               Home
@@ -127,8 +129,8 @@ const Header = () => {
               onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive
-                  ? 'text-blue-500 border-b-2 rounded-md border-blue-500'
-                  : 'text-white'
+                  ? "text-blue-500 border-b-2 rounded-md border-blue-500"
+                  : "text-white"
               }
             >
               About
@@ -138,8 +140,8 @@ const Header = () => {
               onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive
-                  ? 'text-blue-500 border-b-2 rounded-md border-blue-500'
-                  : 'text-white'
+                  ? "text-blue-500 border-b-2 rounded-md border-blue-500"
+                  : "text-white"
               }
             >
               Services
@@ -149,8 +151,8 @@ const Header = () => {
               onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive
-                  ? 'text-blue-500 border-b-2 rounded-md border-blue-500'
-                  : 'text-white'
+                  ? "text-blue-500 border-b-2 rounded-md border-blue-500"
+                  : "text-white"
               }
             >
               Contact
