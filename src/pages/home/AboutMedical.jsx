@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMedical = () => {
   return (
-    <div className="my-14 overflow-hidden">
+    <div className="mb-10 md:my-14 overflow-hidden">
       <div className="w-4/5 lg:max-w-[1200px] mb-6 mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
           <h1 className="text-3xl md:text-6xl font-Bricolage-Grotesque font-bold">
@@ -28,35 +28,35 @@ const AboutMedical = () => {
 
         <div className="w-full md:w-1/2 space-y-4">
           {/* About Us Description */}
-          <h3 className="text-4xl font-semibold">About Us</h3>
-          <p className="text-lg leading-tight">
+          <h3 className="text-2xl md:text-4xl font-semibold">About Us</h3>
+          <p className="md:text-lg leading-tight">
             Since 2007 We're working Medical group of more than 1200+ Patients
             help from our medical.
           </p>
 
           {/* List */}
           <ul className="space-y-2">
-            <li className="flex items-center text-lg text-blue-600">
+            <li className="flex items-center  md:text-lg text-blue-600">
               <span className="mr-2 text-black">&#10038;</span> Completely to
               syndicate
             </li>
-            <li className="flex items-center text-lg text-blue-600">
+            <li className="flex items-center  md:text-lg text-blue-600">
               <span className="mr-2 text-black">&#10038;</span> Professional
               Doctors
             </li>
-            <li className="flex items-center text-lg text-blue-600">
+            <li className="flex items-center  md:text-lg text-blue-600">
               <span className="mr-2 text-black">&#10038;</span> We're Putting
               your Comfort List
             </li>
-            <li className="flex items-center text-lg text-blue-600">
+            <li className="flex items-center  md:text-lg text-blue-600">
               <span className="mr-2 text-black">&#10038;</span> Medical Surgical
               Services
             </li>
-            <li className="flex items-center text-lg text-blue-600">
+            <li className="flex items-center  md:text-lg text-blue-600">
               <span className="mr-2 text-black">&#10038;</span> Instant
               Operations System
             </li>
-            <li className="flex items-center text-lg text-blue-600">
+            <li className="flex items-center  md:text-lg text-blue-600">
               <span className="mr-2 text-black">&#10038;</span> 100%
               Satisfaction Rate
             </li>

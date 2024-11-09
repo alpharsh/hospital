@@ -140,7 +140,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="flex w-4/5 lg:max-w-[1200px] mt-24 mx-auto flex-col lg:flex-row justify-around items-center">
+        <div className="flex w-4/5 lg:max-w-[1200px] mt-14 md:mt-24 mx-auto flex-col lg:flex-row justify-around items-center">
           {/* Professional Section */}
           <div className="flex flex-col space-y-4 items-center text-center bg-white p-6 md:p-8 rounded-3xl  w-full  mx-4 my-4">
             <h3 className="text-2xl md:text-3xl font-bold mb-7">OUR PROFESSIONAL</h3>

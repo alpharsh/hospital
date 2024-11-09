@@ -3,7 +3,7 @@ import { GiStethoscope } from "react-icons/gi";
 
 const AppointmentCard = () => {
   return (
-    <div className="flex justify-center items-center min-h-full py-24 px-4 sm:px-6 lg:px-8">
+    <div className="flex justify-center items-center min-h-full py-14 md:py-24 px-4 sm:px-6 lg:px-8">
       <div className="relative lg:max-w-[1200px] text-white rounded-3xl overflow-hidden mx-auto shadow-2xl p-12 text-center bg-gray-200 md:w-3/4 h-auto">
         <div
           className="absolute inset-0 z-0 bg-cover bg-center "
