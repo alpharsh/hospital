@@ -5,10 +5,11 @@ import Testimonials from "./Testimonials";
 import TreatmentSection from "./TreatmentSection";
 import DoctorsBanner from "../../components/DoctorsBanner";
 import AboutMedical from "./AboutMedical";
+import Slider from "./Slider";
 
 function Home() {
   return (
-    <div className=" overflow-hidden">
+    <div className="overflow-hidden">
       {/* HERO SECTION */}
       <div className="relative flex items-center justify-between w-full h-[47rem] bg-gradient-to-b from-[#002570] to-[#0074D1]">
         <div className="absolute left-0 top-0 z-10">
@@ -22,18 +23,22 @@ function Home() {
             <path
               d="M447.374 147.228C476.019 251.079 328.819 446.129 221.208 450.877C97.1296 456.351 -34 278.472 -34 147.228C-34 15.9843 8.94081 -39.3531 115.604 -56.0846C245.462 -76.4543 426.254 70.6557 447.374 147.228Z"
               fill="#1C5FCB"
-              fill-opacity="0.61"
+              fillOpacity="0.61"
             />
           </svg>
         </div>
         <div className="z-10">
           {/* Left Section: Text Content */}
-          <div className="text-white  p-10 sm:pl-16 z-10">
+          <div className="text-white p-10 sm:pl-16 z-10">
             <h1 className="flex items-end font-Bricolage-Grotesque text-4xl md:text-7xl font-bold leading-tight mb-4">
               We Provide Best <br />
               Healthcare{" "}
               <div className="absolute left-60 md:left-[28rem]">
-                <img src="/heart.png" alt="heart" className="w-12 md:w-16 animate-wood-animation"/>
+                <img
+                  src="/heart.png"
+                  alt="heart"
+                  className="w-12 md:w-16 animate-wood-animation"
+                />
               </div>
             </h1>
             <p className="mb-8 font-Bricolage-Grotesque text-lg max-w-lg">
@@ -81,9 +86,10 @@ function Home() {
               />
             </svg>
           </div>
-          {/* Right Section: Doctor Image */}
-          <div className="absolute hidden md:block right-0 bottom-0 h-full">
-            <img src="/hero.png" alt="Doctor" className="h-full object-cover" />
+
+          {/* Right Section: Slider */}
+          <div className="absolute flex items-center justify-center right-10 bottom-0 h-full w-1/2">
+            <Slider />
           </div>
         </div>
       </div>
@@ -101,7 +107,7 @@ function Home() {
             <path
               d="M481.374 205.228C510.019 309.079 362.819 504.129 255.208 508.877C131.13 514.351 0 336.472 0 205.228C0 73.9843 42.9408 18.6469 149.604 1.91543C279.462 -18.4543 460.254 128.656 481.374 205.228Z"
               fill="#1C5FCB"
-              fill-opacity="0.61"
+              fillOpacity="0.61"
             />
           </svg>
         </div>
