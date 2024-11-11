@@ -28,8 +28,11 @@ function Home() {
           </svg>
         </div>
         <div className="z-10">
+          <div className="mt-[0.4rem] md:hidden">
+            <Slider />
+          </div>
           {/* Left Section: Text Content */}
-          <div className="text-white p-10 sm:pl-16 z-10">
+          <div className="text-white p-8 md:p-10 sm:pl-16 z-10">
             <h1 className="flex items-end font-Bricolage-Grotesque text-4xl md:text-7xl font-bold leading-tight mb-4">
               We Provide Best <br />
               Healthcare{" "}
@@ -41,7 +44,7 @@ function Home() {
                 />
               </div>
             </h1>
-            <p className="mb-8 font-Bricolage-Grotesque text-lg max-w-lg">
+            <p className="mb-8 font-Bricolage-Grotesque leading-tight text-lg max-w-lg">
               Explicabo esse amet tempora quibusdam laudantium, laborum eaque
               magnam fugiat hic? Esse dicta aliquid error repudiandae earum
               suscipit fugiat molestias, veniam, vel architecto veritatis
@@ -49,7 +52,7 @@ function Home() {
             </p>
             <a
               href="#"
-              className="inline-flex items-center px-9 py-2 text-xl bg-white text-black font-Bricolage-Grotesque font-bold rounded-full shadow-lg hover:bg-gray-100 transition duration-300 ease-in-out"
+              className="inline-flex items-center px-3 md:px-9 py-1 md:py-2 md:text-xl bg-white text-black font-Bricolage-Grotesque font-bold rounded-full shadow-lg hover:bg-gray-100 transition duration-300 ease-in-out"
             >
               More About{" "}
               <span className="ml-2 text-blue-600">
@@ -88,14 +91,14 @@ function Home() {
           </div>
 
           {/* Right Section: Slider */}
-          <div className="absolute flex items-center justify-center right-10 bottom-0 h-full w-1/2">
+          <div className="absolute hidden md:flex items-center justify-center right-10 bottom-0 h-full w-1/2">
             <Slider />
           </div>
         </div>
       </div>
 
       {/* CARDS SECTION */}
-      <div className="pt-0 py-12 bg-gradient-to-b from-[#0074D1] to-white relative custom-shadow">
+      <div className="pt-0 py-12 bg-gradient-to-b from-[#0074D1] to-white relative">
         <div className="absolute left-[30rem] -top-60 z-0 hidden md:block">
           <svg
             width="485"
@@ -149,7 +152,9 @@ function Home() {
         <div className="flex w-4/5 lg:max-w-[1200px] mt-14 md:mt-24 mx-auto flex-col lg:flex-row justify-around items-center">
           {/* Professional Section */}
           <div className="flex flex-col space-y-4 items-center text-center bg-white p-6 md:p-8 rounded-3xl  w-full  mx-4 my-4">
-            <h3 className="text-2xl md:text-3xl font-bold mb-1 md:mb-7">OUR PROFESSIONAL</h3>
+            <h3 className="text-2xl md:text-3xl font-bold mb-1 md:mb-7">
+              OUR PROFESSIONAL
+            </h3>
             <img
               src="/img1.png"
               alt="Our Professional"
@@ -165,8 +170,14 @@ function Home() {
 
           {/* Booking Section */}
           <div className="flex flex-col space-y-4 items-center text-center bg-white p-8 rounded-3xl  w-full  mx-4 my-4">
-            <h3 className="text-2xl md:text-3xl font-bold mb-1 md:mb-7">BOOKING</h3>
-            <img src="/img2.png" alt="Booking" className="w-24 md:w-28 h-24 md:h-28 mb-4" />
+            <h3 className="text-2xl md:text-3xl font-bold mb-1 md:mb-7">
+              BOOKING
+            </h3>
+            <img
+              src="/img2.png"
+              alt="Booking"
+              className="w-24 md:w-28 h-24 md:h-28 mb-4"
+            />
             <p className="text-2xl md:text-3xl font-bold mb-2 font-Bricolage-Grotesque">
               +123 (4567) 890
             </p>
@@ -177,8 +188,14 @@ function Home() {
 
           {/* Location Section */}
           <div className="flex flex-col space-y-4 items-center text-center bg-white p-8 rounded-3xl  w-full  mx-4 my-4">
-            <h3 className="text-2xl md:text-3xl font-bold mb-1 md:mb-7">LOCATION</h3>
-            <img src="/img3.png" alt="Location" className="w-24 md:w-28 h-24 md:h-28 mb-4" />
+            <h3 className="text-2xl md:text-3xl font-bold mb-1 md:mb-7">
+              LOCATION
+            </h3>
+            <img
+              src="/img3.png"
+              alt="Location"
+              className="w-24 md:w-28 h-24 md:h-28 mb-4"
+            />
             <p className="text-2xl md:text-3xl font-semibold mb-2">Locate Us</p>
             <p className="text-base md:text-xl leading-tight text-gray-600">
               Rapaciously reinvent long-term impact collaboration
