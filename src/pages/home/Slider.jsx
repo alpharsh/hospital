@@ -58,7 +58,7 @@ const Slider = () => {
           >
             {/* Overlay and Content for Each Slide */}
             <div className="absolute inset-0 bg-gradient-to-r from-gray-900 to-transparent opacity-80"></div>
-            <div className="absolute top-1/2 transform -translate-y-1/2 w-3/4 left-12 text-white">
+            <div className="absolute top-1/2 transform -translate-y-1/2 w-3/4 left-10 md:left-12 text-white">
               <h2 className="text-2xl md:text-3xl font-bold leading-tight font-Bricolage-Grotesque">{slide.heading}</h2>
               <p className="mt-2 md:mt-4 text-xs md:text-sm font-Bricolage-Grotesque">{slide.description}</p>
               <button className="mt-2 md:mt-4 bg-transparent text-xs md:text-base border px-2 py-1 md:px-3 md:py-1 font-Bricolage-Grotesque rounded-lg hover:bg-blue-700/50 transition">
