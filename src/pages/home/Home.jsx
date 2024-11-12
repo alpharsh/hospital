@@ -115,7 +115,7 @@ function Home() {
           </svg>
         </div>
         {/* Achievement Card */}
-        <div className="flex flex-col md:flex-row lg:max-w-[1200px] items-center justify-between w-[95%] md:w-4/5 mx-auto bg-white shadow-2xl shadow-[#0074D1] rounded-3xl md:rounded-[3rem] py-3 md:py-6 px-8 relative z-10 overflow-hidden">
+        <div className="flex flex-col md:flex-row lg:max-w-[1200px] items-center justify-between w-4/5 mx-auto bg-white shadow-2xl shadow-[#0074D1] rounded-3xl md:rounded-[3rem] py-3 md:py-6 px-8 relative z-10 overflow-hidden">
           {/* Image Section */}
           <div className="hidden md:block flex-shrink-0">
             <img
@@ -130,7 +130,7 @@ function Home() {
             <h3 className="text-xl hidden md:block md:text-3xl font-semibold font-Bricolage-Grotesque text-blue-600">
               Medical Achievement Health Protection
             </h3>
-            <h3 className="text-2xl mb-2 md:hidden md:text-3xl font-semibold font-Bricolage-Grotesque text-blue-600">
+            <h3 className="text-xl mb-2 md:hidden md:text-3xl font-semibold font-Bricolage-Grotesque text-blue-600">
               Medical Achievement
             </h3>
           </div>
@@ -140,16 +140,16 @@ function Home() {
             <div className="text-center">
               <p className="text-3xl font-bold text-black">12+</p>
               <hr className="border border-blue-300 w-full mt-1" />
-              <p className="text-gray-600 leading-tight">Satisfied Patients</p>
+              <p className="text-gray-600 text-sm md:text-base leading-tight">Satisfied Patients</p>
             </div>
             <div className="text-center">
               <p className="text-3xl font-bold text-black">100%</p>
               <hr className="border border-blue-300 w-full mt-1" />
-              <p className="text-gray-600 leading-tight">Satisfaction Rates</p>
+              <p className="text-gray-600 text-sm md:text-base leading-tight">Satisfaction Rates</p>
             </div>
           </div>
         </div>
-        <div className="flex w-4/5 lg:max-w-[1200px] mt-14 md:mt-24 mx-auto flex-col lg:flex-row justify-around items-center">
+        <div className="flex w-4/5 lg:max-w-[1200px] mt-10 md:mt-24 mx-auto flex-col lg:flex-row justify-around items-center">
           {/* Professional Section */}
           <div className="flex flex-col space-y-4 items-center text-center bg-white p-6 md:p-8 rounded-3xl  w-full  mx-4 my-4">
             <h3 className="text-2xl md:text-3xl font-bold mb-1 md:mb-7">

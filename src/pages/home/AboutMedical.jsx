@@ -22,7 +22,7 @@ const AboutMedical = () => {
           <img
             src="/doc.png"
             alt="Medical Professional"
-            className="rounded-lg shadow-lg w-full h-auto"
+            className="rounded-lg shadow-lg w-11/12 md:w-full h-auto"
           />
         </div>
 
