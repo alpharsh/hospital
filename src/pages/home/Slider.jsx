@@ -51,7 +51,7 @@ const Slider = () => {
         {slides.map((slide, index) => (
           <div
             key={index}
-            className="w-full flex-shrink-0 relative h-60 md:h-[31rem] bg-cover bg-center"
+            className="w-full flex-shrink-0 relative h-56 md:h-[31rem] bg-cover bg-center"
             style={{
               backgroundImage: `url(${slide.image})`,
             }}
