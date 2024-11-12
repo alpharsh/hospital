@@ -18,7 +18,7 @@ const services = [
   { id: 2, title: "Book Check-Up", icon: <TbCheckupList /> },
   { id: 3, title: "Consult Online", icon: <RiChatSmile2Line /> },
   { id: 4, title: "Buy Medicine", icon: <GiMedicines /> },
-  { id: 5, title: "Find Hospital", icon: <PiHospitalLight />},
+  { id: 5, title: "Find Hospital", icon: <PiHospitalLight /> },
   { id: 6, title: "View Health Record", icon: <TbReportSearch /> },
 ];
 
@@ -187,57 +187,61 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="flex w-4/5 lg:max-w-[1200px] mt-10 md:mt-24 mx-auto flex-col lg:flex-row justify-around items-center">
-          {/* Professional Section */}
-          <div className="flex flex-col space-y-4 items-center text-center bg-white p-6 md:p-8 rounded-3xl  w-full  mx-4 my-4">
-            <h3 className="text-2xl md:text-3xl font-bold mb-1 md:mb-7">
-              OUR PROFESSIONAL
-            </h3>
-            <img
-              src="/img1.png"
-              alt="Our Professional"
-              className="w-24 md:w-28 h-24 md:h-28 mb-4"
-            />
-            <p className="text-2xl md:text-3xl font-bold mb-2 font-Bricolage-Grotesque">
-              90+ Doctors
-            </p>
-            <p className="text-base md:text-xl leading-tight text-gray-600">
-              Rapidiously reinvent long-term impact collaboration
-            </p>
-          </div>
+        <div className="hidden md:block">
+          <div className="flex w-4/5 lg:max-w-[1200px] mt-10 md:mt-24 mx-auto flex-col lg:flex-row justify-around items-center">
+            {/* Professional Section */}
+            <div className="flex flex-col space-y-4 items-center text-center bg-white p-6 md:p-8 rounded-3xl  w-full  mx-4 my-4">
+              <h3 className="text-2xl md:text-3xl font-bold mb-1 md:mb-7">
+                OUR PROFESSIONAL
+              </h3>
+              <img
+                src="/img1.png"
+                alt="Our Professional"
+                className="w-24 md:w-28 h-24 md:h-28 mb-4"
+              />
+              <p className="text-2xl md:text-3xl font-bold mb-2 font-Bricolage-Grotesque">
+                90+ Doctors
+              </p>
+              <p className="text-base md:text-xl leading-tight text-gray-600">
+                Rapidiously reinvent long-term impact collaboration
+              </p>
+            </div>
 
-          {/* Booking Section */}
-          <div className="flex flex-col space-y-4 items-center text-center bg-white p-8 rounded-3xl  w-full  mx-4 my-4">
-            <h3 className="text-2xl md:text-3xl font-bold mb-1 md:mb-7">
-              BOOKING
-            </h3>
-            <img
-              src="/img2.png"
-              alt="Booking"
-              className="w-24 md:w-28 h-24 md:h-28 mb-4"
-            />
-            <p className="text-2xl md:text-3xl font-bold mb-2 font-Bricolage-Grotesque">
-              +123 (4567) 890
-            </p>
-            <p className="text-base md:text-xl leading-tight text-gray-600">
-              Call Us for Booking appointments online 24x7
-            </p>
-          </div>
+            {/* Booking Section */}
+            <div className="flex flex-col space-y-4 items-center text-center bg-white p-8 rounded-3xl  w-full  mx-4 my-4">
+              <h3 className="text-2xl md:text-3xl font-bold mb-1 md:mb-7">
+                BOOKING
+              </h3>
+              <img
+                src="/img2.png"
+                alt="Booking"
+                className="w-24 md:w-28 h-24 md:h-28 mb-4"
+              />
+              <p className="text-2xl md:text-3xl font-bold mb-2 font-Bricolage-Grotesque">
+                +123 (4567) 890
+              </p>
+              <p className="text-base md:text-xl leading-tight text-gray-600">
+                Call Us for Booking appointments online 24x7
+              </p>
+            </div>
 
-          {/* Location Section */}
-          <div className="flex flex-col space-y-4 items-center text-center bg-white p-8 rounded-3xl  w-full  mx-4 my-4">
-            <h3 className="text-2xl md:text-3xl font-bold mb-1 md:mb-7">
-              LOCATION
-            </h3>
-            <img
-              src="/img3.png"
-              alt="Location"
-              className="w-24 md:w-28 h-24 md:h-28 mb-4"
-            />
-            <p className="text-2xl md:text-3xl font-semibold mb-2">Locate Us</p>
-            <p className="text-base md:text-xl leading-tight text-gray-600">
-              Rapaciously reinvent long-term impact collaboration
-            </p>
+            {/* Location Section */}
+            <div className="flex flex-col space-y-4 items-center text-center bg-white p-8 rounded-3xl  w-full  mx-4 my-4">
+              <h3 className="text-2xl md:text-3xl font-bold mb-1 md:mb-7">
+                LOCATION
+              </h3>
+              <img
+                src="/img3.png"
+                alt="Location"
+                className="w-24 md:w-28 h-24 md:h-28 mb-4"
+              />
+              <p className="text-2xl md:text-3xl font-semibold mb-2">
+                Locate Us
+              </p>
+              <p className="text-base md:text-xl leading-tight text-gray-600">
+                Rapaciously reinvent long-term impact collaboration
+              </p>
+            </div>
           </div>
         </div>
       </div>
