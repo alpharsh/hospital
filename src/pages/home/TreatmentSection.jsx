@@ -25,7 +25,7 @@ const treatments = [
 
 const TreatmentSection = () => {
   return (
-    <div className="py10 sm:py-20 bg-gray-100">
+    <div className="py-10 sm:py-20 bg-gray-100">
       <h2 className="text-center text-4xl md:text-6xl font-Bricolage-Grotesque font-bold mb-8">
         Provide Best Treatments
       </h2>
@@ -41,8 +41,8 @@ const TreatmentSection = () => {
               className="w-full h-40 sm:h-56 md:h-72 object-cover rounded-2xl md:rounded-3xl p-1 sm:p-3"
             />
             <div className="p-2 px-4 pt-0 ">
-              <h3 className="text-lg font-bold text-gray-800">{treatment.title}</h3>
-              <p className="text-gray-500">{treatment.subtitle}</p>
+              <h3 className="text-base md:text-lg font-bold text-gray-800">{treatment.title}</h3>
+              <p className="text-sm md:text-base text-gray-500">{treatment.subtitle}</p>
             </div>
           </div>
         ))}
