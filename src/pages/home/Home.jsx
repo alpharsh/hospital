@@ -6,12 +6,27 @@ import TreatmentSection from "./TreatmentSection";
 import DoctorsBanner from "../../components/DoctorsBanner";
 import AboutMedical from "./AboutMedical";
 import Slider from "./Slider";
+import { IoCalendarOutline } from "react-icons/io5";
+import { TbCheckupList } from "react-icons/tb";
+import { RiChatSmile2Line } from "react-icons/ri";
+import { GiMedicines } from "react-icons/gi";
+import { PiHospitalLight } from "react-icons/pi";
+import { TbReportSearch } from "react-icons/tb";
+
+const services = [
+  { id: 1, title: "Book Appointment", icon: <IoCalendarOutline /> },
+  { id: 2, title: "Book Check-Up", icon: <TbCheckupList /> },
+  { id: 3, title: "Consult Online", icon: <RiChatSmile2Line /> },
+  { id: 4, title: "Buy Medicine", icon: <GiMedicines /> },
+  { id: 5, title: "Find Hospital", icon: <PiHospitalLight />},
+  { id: 6, title: "View Health Record", icon: <TbReportSearch /> },
+];
 
 function Home() {
   return (
     <div className="overflow-hidden">
       {/* HERO SECTION */}
-      <div className="relative flex items-center justify-between w-full h-[47rem] bg-gradient-to-b from-[#002570] to-[#0074D1]">
+      <div className="relative flex items-center justify-between w-full md:h-[47rem] bg-gradient-to-b from-[#002570] to-[#0074D1]">
         <div className="absolute left-0 top-0 z-10">
           <svg
             width="451"
@@ -28,8 +43,27 @@ function Home() {
           </svg>
         </div>
         <div className="z-10">
-          <div className="mt-[0.4rem] md:hidden">
+          <div className="mt-[3.2rem] md:hidden">
             <Slider />
+          </div>
+          <div className="bg-transparent md:hidden py-5 pb-1">
+            <div className="w-11/12 md:w-4/5 lg:max-w-[1200px] mx-auto">
+              <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 md:gap-6">
+                {services.map((service) => (
+                  <div
+                    key={service.id}
+                    className="flex flex-col items-center justify-center p-3 md:p-6 border bg-white/90 drop-shadow-2xl rounded-2xl transition-shadow duration-300"
+                  >
+                    <div className="text-3xl md:text-5xl mb-4">
+                      {service.icon}
+                    </div>
+                    <h3 className="text-sm font-medium leading-tight text-center">
+                      {service.title}
+                    </h3>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
           {/* Left Section: Text Content */}
           <div className="text-white p-8 md:p-10 sm:pl-16 z-10">
@@ -140,12 +174,16 @@ function Home() {
             <div className="text-center">
               <p className="text-3xl font-bold text-black">12+</p>
               <hr className="border border-blue-300 w-full mt-1" />
-              <p className="text-gray-600 text-sm md:text-base leading-tight">Satisfied Patients</p>
+              <p className="text-gray-600 text-sm md:text-base leading-tight">
+                Satisfied Patients
+              </p>
             </div>
             <div className="text-center">
               <p className="text-3xl font-bold text-black">100%</p>
               <hr className="border border-blue-300 w-full mt-1" />
-              <p className="text-gray-600 text-sm md:text-base leading-tight">Satisfaction Rates</p>
+              <p className="text-gray-600 text-sm md:text-base leading-tight">
+                Satisfaction Rates
+              </p>
             </div>
           </div>
         </div>
