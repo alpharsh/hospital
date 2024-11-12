@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gradient-to-r fixed top-0 z-50 w-full bg-[#002570]/80 backdrop-blur-xl text-white py-1 md:py-2 px-8 shadow-lg rounded-bl-2xl rounded-br-2xl">
+    <header className="bg-gradient-to-r fixed top-0 z-50 w-full bg-[#002570]/70 backdrop-blur-xl text-white py-1 md:py-2 px-8 shadow-lg md:rounded-bl-2xl md:rounded-br-2xl">
       <div className="container lg:max-w-[1200px] mx-auto flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center">
