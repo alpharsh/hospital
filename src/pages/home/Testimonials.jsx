@@ -32,7 +32,7 @@ const Testimonials = () => {
         Testimonials
       </h2>
       <div className="flex w-11/12 sm:w-4/5 mx-auto lg:max-w-[1200px]">
-        <div className="flex overflow-x-auto space-x-8 md:space-x-8">
+        <div className="flex overflow-x-auto space-x-8 md:space-x-8 [-ms-overflow-style:none] [scrollbar-width:none]">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
@@ -51,7 +51,7 @@ const Testimonials = () => {
                     }`}
                   >
                     <svg
-                      className="w-10 md:w-12 h-10 md:h-12"
+                      className="w-8 md:w-12 h-8 md:h-12"
                       viewBox="0 0 51 51"
                       fill={testimonial.featured ? "#E0E0E0" : "#1500FF"}
                       xmlns="http://www.w3.org/2000/svg"
@@ -61,13 +61,13 @@ const Testimonials = () => {
                   </span>
                 ))}
               </div>
-              <h3 className="text-xl sm:text-2xl font-bold text-center">
+              <h3 className="text-lg sm:text-2xl font-bold text-center">
                 {testimonial.name}
               </h3>
-              <p className="text-center text-lg mb-4">{testimonial.role}</p>
+              <p className="text-center text-sm md:text-lg mb-4">{testimonial.role}</p>
               <div className="flex justify-center mb-2 sm:mb-7 text-center">
                 <svg
-                  className="w-8 sm:w-10"
+                  className="w-6 sm:w-10"
                   viewBox="0 0 43 37"
                   fill={testimonial.featured ? "#E0E0E0" : "#1500FF"}
                   xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@ const Testimonials = () => {
                 </svg>
               </div>
 
-              <blockquote className="text-center text-base md:text-xl leading-tight italic">
+              <blockquote className="text-center text-xs md:text-xl leading-tight italic">
                 "{testimonial.quote}"
               </blockquote>
             </div>
