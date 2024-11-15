@@ -12,6 +12,7 @@ import { RiChatSmile2Line } from "react-icons/ri";
 import { GiMedicines } from "react-icons/gi";
 import { PiHospitalLight } from "react-icons/pi";
 import { TbReportSearch } from "react-icons/tb";
+import CountUp from 'react-countup';
 
 const services = [
   { id: 1, title: "Book Appointment", icon: <IoCalendarOutline /> },
@@ -168,18 +169,18 @@ function Home() {
               Medical Achievement
             </h3>
           </div>
-
+ 
           {/* Stats Section */}
           <div className="flex items-center space-x-12">
             <div className="text-center">
-              <p className="text-3xl font-bold text-black">12+</p>
+              <p className="text-3xl font-bold text-black"><CountUp end={47} enableScrollSpy={true}/>+</p>
               <hr className="border border-blue-300 w-full mt-1" />
               <p className="text-gray-600 text-sm md:text-base leading-tight">
                 Satisfied Patients
               </p>
             </div>
             <div className="text-center">
-              <p className="text-3xl font-bold text-black">100%</p>
+              <p className="text-3xl font-bold text-black"><CountUp end={100} enableScrollSpy={true}/>%</p>
               <hr className="border border-blue-300 w-full mt-1" />
               <p className="text-gray-600 text-sm md:text-base leading-tight">
                 Satisfaction Rates
