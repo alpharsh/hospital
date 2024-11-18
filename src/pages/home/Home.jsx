@@ -173,14 +173,14 @@ function Home() {
           {/* Stats Section */}
           <div className="flex items-center space-x-12">
             <div className="text-center">
-              <p className="text-3xl font-bold text-black"><CountUp end={47} enableScrollSpy={true}/>+</p>
+              <p className="text-3xl font-bold text-black"><CountUp start={0} end={67} duration={5}/>+</p>
               <hr className="border border-blue-300 w-full mt-1" />
               <p className="text-gray-600 text-sm md:text-base leading-tight">
                 Satisfied Patients
               </p>
             </div>
             <div className="text-center">
-              <p className="text-3xl font-bold text-black"><CountUp end={100} enableScrollSpy={true}/>%</p>
+              <p className="text-3xl font-bold text-black"><CountUp start={0} end={100} duration={5}/>%</p>
               <hr className="border border-blue-300 w-full mt-1" />
               <p className="text-gray-600 text-sm md:text-base leading-tight">
                 Satisfaction Rates
