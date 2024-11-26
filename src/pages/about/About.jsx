@@ -23,7 +23,7 @@ function About() {
 
       <div className="w-4/5 lg:max-w-[1200px] mx-auto mt-8 mb-20">
         <h2 className="text-4xl md:text-5xl font-bold mb-4 font-Bricolage-Grotesque">About Us</h2>
-        <p className="text-lg text-gray-700 leading-relaxed">
+        <p className="text-lg text-gray-700 leading-snug">
           Fortis Healthcare Limited – an IHH Healthcare Berhad Company – is a
           leading integrated healthcare services provider in India. It is one of
           the largest healthcare organizations in the country with 28 healthcare
@@ -37,7 +37,7 @@ function About() {
         </p>
       </div>
       <AboutMedical />
-      <div className="flex lg:max-w-[1200px] flex-col lg:flex-row items-center gap-8 w-11/12 md:w-4/5 mx-auto py-5 md:py-16 px-4">
+      <div className="flex lg:max-w-[1200px] flex-col-reverse lg:flex-row items-center gap-8 w-11/12 md:w-4/5 mx-auto py-5 md:py-16 px-4">
       {/* Text Section */}
       <div className="lg:w-1/2 text-center lg:text-left">
         <h2 className="text-3xl md:text-6xl font-bold mb-4 font-Bricolage-Grotesque">Our Happy Patients</h2>
@@ -47,7 +47,7 @@ function About() {
         </p>
 
         {/* Testimonial Card */}
-        <div className="bg-blue-900 text-white p-8 rounded-2xl shadow-lg max-w-md mx-auto lg:mx-0">
+        <div className="bg-blue-900 text-white p-4 md:p-8 rounded-2xl shadow-lg max-w-md mx-auto lg:mx-0">
           <div className="flex items-center mb-4">
             <img
               src="/doc.png"
@@ -59,7 +59,7 @@ function About() {
               <p className="text-sm">SATISFIED PATIENT</p>
             </div>
           </div>
-          <p className="italic text-sm leading-relaxed">
+          <p className="italic text-left text-sm leading-snug">
             Commerce end interfaces with collaborative strategies. Appropriately
             enhance alignments after team solutions for growth in corporate
             web-readiness.
@@ -76,7 +76,7 @@ function About() {
       </div>
 
       {/* Image Section */}
-      <div className="lg:w-1/2 ">
+      <div className="lg:w-1/2 mx-auto px-5 md:px-24 ">
         <img
           src="/aboutdoc.png"
           alt="Happy Patient with Doctor"
