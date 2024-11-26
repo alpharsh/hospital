@@ -36,7 +36,7 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className={`p-4 md:p-6 rounded-xl shadow-xl ${
+              className={`p-4 md:p-6 rounded-xl  ${
                 testimonial.featured
                   ? "bg-blue-900 text-white"
                   : "bg-white text-[#0022FF]"
