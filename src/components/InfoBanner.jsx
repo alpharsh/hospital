@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { CiMedicalCase } from "react-icons/ci";
+import { Link } from 'react-router-dom';
 
 const InfoBanner = () => {
   return (
@@ -16,10 +17,10 @@ const InfoBanner = () => {
 
         {/* Right Section: Contact Us Button */}
         <div className="mt-2 md:mt-0">
-          <a href="tel:+1234567890" className="bg-white text-black hover:bg-blue-100 px-2 md:px-9 py-1 md:py-3 rounded-full flex items-center space-x-2">
+          <Link to="/contact" className="bg-white text-black hover:bg-blue-100 px-2 md:px-9 py-1 md:py-3 rounded-full flex items-center space-x-2">
             <span className='font-semibold md:font-bold text-xs md:text-xl'>Contact Us</span>
             <FaPhoneAlt className='text-xs md:text-2xl text-blue-500'/>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

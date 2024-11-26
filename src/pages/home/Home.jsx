@@ -13,6 +13,7 @@ import { GiMedicines } from "react-icons/gi";
 import { PiHospitalLight } from "react-icons/pi";
 import { TbReportSearch } from "react-icons/tb";
 import CountUp from 'react-countup';
+import { Link } from "react-router-dom";
 
 const services = [
   { id: 1, title: "Book Appointment", icon: <IoCalendarOutline /> },
@@ -85,8 +86,8 @@ function Home() {
               suscipit fugiat molestias, veniam, vel architecto veritatis
               delectus repellat modi impedit sequi.
             </p>
-            <a
-              href="#"
+            <Link
+              to="/about"
               className="inline-flex items-center px-3 md:px-9 py-1 md:py-2 md:text-xl bg-white text-black font-Bricolage-Grotesque font-bold rounded-full shadow-lg hover:bg-gray-100 transition duration-300 ease-in-out"
             >
               More About{" "}
@@ -106,7 +107,7 @@ function Home() {
                   />
                 </svg>
               </span>
-            </a>
+            </Link>
           </div>
 
           <div className="absolute hidden md:block right-32 top-0">
