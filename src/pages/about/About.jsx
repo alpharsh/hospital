@@ -1,30 +1,10 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import AboutMedical from "../home/AboutMedical";
 import InfoBanner from "../../components/InfoBanner";
 
 function About() {
   const scrollRef = useRef(null);
-
-  useEffect(() => {
-    window.scrollTo(0, 0); // Scrolls to the top of the page
-
-    const interval = setInterval(() => {
-      if (scrollRef.current) {
-        const cardWidth = scrollRef.current.firstChild?.offsetWidth || 0;
-        const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
-
-        const isAtEnd = scrollLeft + clientWidth >= scrollWidth;
-        const nextScrollLeft = isAtEnd ? 0 : scrollLeft + cardWidth;
-
-        scrollRef.current.scrollTo({
-          left: nextScrollLeft,
-          behavior: "smooth",
-        });
-      }
-    }, 3000); // Scroll every 3 seconds
-
-    return () => clearInterval(interval);
-  }, []);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const testimonials = [
     {
@@ -58,6 +38,26 @@ function About() {
       img: "/doc.png",
     },
   ];
+
+  const testimonialCount = testimonials.length;
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (scrollRef.current) {
+        const cardWidth = scrollRef.current.firstChild?.offsetWidth || 0;
+        const nextIndex = (activeIndex + 1) % testimonialCount;
+        const nextScrollLeft = cardWidth * nextIndex;
+
+        scrollRef.current.scrollTo({
+          left: nextScrollLeft,
+          behavior: "smooth",
+        });
+
+        setActiveIndex(nextIndex); // Update active index
+      }
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [activeIndex, testimonialCount]);
 
   return (
     <div>
@@ -138,10 +138,14 @@ function About() {
 
           {/* Carousel Indicators */}
           <div className="flex justify-center lg:justify-start mt-4 space-x-2">
-            <span className="w-3 h-3 bg-blue-600 rounded-full"></span>
-            <span className="w-3 h-3 bg-gray-300 rounded-full"></span>
-            <span className="w-3 h-3 bg-gray-300 rounded-full"></span>
-            <span className="w-3 h-3 bg-gray-300 rounded-full"></span>
+            {testimonials.map((_, index) => (
+              <span
+                key={index}
+                className={`w-3 h-3 rounded-full ${
+                  index === activeIndex ? "bg-blue-600" : "bg-gray-300"
+                }`}
+              />
+            ))}
           </div>
         </div>
 
