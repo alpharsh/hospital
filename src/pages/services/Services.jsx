@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import InfoBanner from "../../components/InfoBanner";
 
 const centers = [
@@ -50,25 +50,29 @@ const doctors = [
   {
     name: "Dr. Ketan Kim",
     specialty: "Ophthalmologist",
-    imageUrl: "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
+    imageUrl:
+      "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
     rating: 4,
   },
   {
     name: "Dr. Benjamin Clark",
     specialty: "Ophthalmologist",
-    imageUrl: "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
+    imageUrl:
+      "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
     rating: 5,
   },
   {
     name: "Dr. Dan Thomas",
     specialty: "Ophthalmologist",
-    imageUrl: "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
+    imageUrl:
+      "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
     rating: 4,
   },
   {
     name: "Dr. Sophia Miller",
     specialty: "Ophthalmologist",
-    imageUrl: "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
+    imageUrl:
+      "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
     rating: 5,
   },
 ];
@@ -98,6 +102,10 @@ const StarRating = ({ rating }) => {
 };
 
 function Services() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  }, []);
+
   return (
     <div>
       <div
@@ -109,7 +117,9 @@ function Services() {
             <h1 className="text-4xl md:text-7xl font-bold font-Bricolage-Grotesque">
               Services
             </h1>
-            <p className="mt-2 text-xs md:text-base font-Bricolage-Grotesque">HOME / SERVICES</p>
+            <p className="mt-2 text-xs md:text-base font-Bricolage-Grotesque">
+              HOME / SERVICES
+            </p>
           </div>
         </div>
       </div>

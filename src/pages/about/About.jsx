@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AboutMedical from "../home/AboutMedical";
 import InfoBanner from "../../components/InfoBanner";
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  }, []);
+
   return (
     <div>
       <div

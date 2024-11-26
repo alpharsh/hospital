@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import InfoBanner from "../../components/InfoBanner";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 
 function Contact() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  }, []);
+
   return (
     <div>
       <div
@@ -15,7 +19,9 @@ function Contact() {
             <h1 className="text-4xl md:text-7xl font-bold font-Bricolage-Grotesque">
               Contact Us
             </h1>
-            <p className="mt-2 text-xs md:text-base font-Bricolage-Grotesque">HOME / CONTACT US</p>
+            <p className="mt-2 text-xs md:text-base font-Bricolage-Grotesque">
+              HOME / CONTACT US
+            </p>
           </div>
         </div>
       </div>
