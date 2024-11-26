@@ -24,7 +24,7 @@ function Contact() {
       <div className="flex flex-col lg:max-w-[1200px] w-11/12 md:w-4/5 mx-auto lg:flex-row items-center justify-center lg:space-x-12 p-4 py-10 lg:p-16 bg-white">
         <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
           <h2 className="text-3xl md:text-5xl font-bold text-blue-700 mb-3 md:mb-4 font-Bricolage-Grotesque">
-            Make Appointment
+            Book Appointment
           </h2>
           <p className="text-gray-600 text-[1rem] md:text-xl leading-tight mb-6">
             Make an Online Appointment Booking For Treatment Patients

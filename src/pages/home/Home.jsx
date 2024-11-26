@@ -173,14 +173,14 @@ function Home() {
           {/* Stats Section */}
           <div className="flex items-center space-x-12">
             <div className="text-center">
-              <p className="text-3xl font-bold text-black"><CountUp start={0} end={67} duration={5}/>+</p>
+              <p className="text-3xl font-bold text-black"><CountUp end={67} enableScrollSpy={true}/>+</p>
               <hr className="border border-blue-300 w-full mt-1" />
               <p className="text-gray-600 text-sm md:text-base leading-tight">
                 Satisfied Patients
               </p>
             </div>
             <div className="text-center">
-              <p className="text-3xl font-bold text-black"><CountUp start={0} end={100} duration={5}/>%</p>
+              <p className="text-3xl font-bold text-black"><CountUp end={100} enableScrollSpy={true}/>%</p>
               <hr className="border border-blue-300 w-full mt-1" />
               <p className="text-gray-600 text-sm md:text-base leading-tight">
                 Satisfaction Rates
@@ -192,7 +192,7 @@ function Home() {
           <div className="flex w-4/5 lg:max-w-[1200px] mt-10 md:mt-24 mx-auto flex-col lg:flex-row justify-around items-center">
             {/* Professional Section */}
             <div className="flex flex-col space-y-4 items-center text-center bg-white p-6 md:p-8 rounded-3xl  w-full  mx-4 my-4">
-              <h3 className="text-2xl md:text-3xl font-bold mb-1 md:mb-7">
+              <h3 className="text-2xl md:text-2xl font-bold mb-1 md:mb-7">
                 OUR PROFESSIONAL
               </h3>
               <img
@@ -200,17 +200,17 @@ function Home() {
                 alt="Our Professional"
                 className="w-24 md:w-28 h-24 md:h-28 mb-4"
               />
-              <p className="text-2xl md:text-3xl font-bold mb-2 font-Bricolage-Grotesque">
+              <p className="text-2xl md:text-2xl font-bold mb-2 font-Bricolage-Grotesque">
                 90+ Doctors
               </p>
-              <p className="text-base md:text-xl leading-tight text-gray-600">
+              <p className="text-base md:text-lg leading-tight text-gray-600">
                 Rapidiously reinvent long-term impact collaboration
               </p>
             </div>
 
             {/* Booking Section */}
             <div className="flex flex-col space-y-4 items-center text-center bg-white p-8 rounded-3xl  w-full  mx-4 my-4">
-              <h3 className="text-2xl md:text-3xl font-bold mb-1 md:mb-7">
+              <h3 className="text-2xl md:text-2xl font-bold mb-1 md:mb-7">
                 BOOKING
               </h3>
               <img
@@ -218,17 +218,17 @@ function Home() {
                 alt="Booking"
                 className="w-24 md:w-28 h-24 md:h-28 mb-4"
               />
-              <p className="text-2xl md:text-3xl font-bold mb-2 font-Bricolage-Grotesque">
+              <p className="text-2xl md:text-2xl font-bold mb-2 font-Bricolage-Grotesque">
                 +123 (4567) 890
               </p>
-              <p className="text-base md:text-xl leading-tight text-gray-600">
+              <p className="text-base md:text-lg leading-tight text-gray-600">
                 Call Us for Booking appointments online 24x7
               </p>
             </div>
 
             {/* Location Section */}
             <div className="flex flex-col space-y-4 items-center text-center bg-white p-8 rounded-3xl  w-full  mx-4 my-4">
-              <h3 className="text-2xl md:text-3xl font-bold mb-1 md:mb-7">
+              <h3 className="text-2xl md:text-2xl font-bold mb-1 md:mb-7">
                 LOCATION
               </h3>
               <img
@@ -236,10 +236,10 @@ function Home() {
                 alt="Location"
                 className="w-24 md:w-28 h-24 md:h-28 mb-4"
               />
-              <p className="text-2xl md:text-3xl font-semibold mb-2">
+              <p className="text-2xl md:text-2xl font-semibold mb-2">
                 Locate Us
               </p>
-              <p className="text-base md:text-xl leading-tight text-gray-600">
+              <p className="text-base md:text-lg leading-tight text-gray-600">
                 Rapaciously reinvent long-term impact collaboration
               </p>
             </div>

@@ -21,7 +21,7 @@ const Footer = () => {
           <p>102/ B Street, New Elephant Road, Sandigo, USA</p>
 
           <h3 className="font-semibold text-lg mt-4 mb-2">Call Now</h3>
-          <p>+123 (4567) - 890</p>
+          <a href="tel:+1234567890">+123 (4567) - 890</a>
         </div>
 
         {/* Right Section: Email and Social Icons */}
