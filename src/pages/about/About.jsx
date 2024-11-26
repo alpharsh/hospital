@@ -81,7 +81,7 @@ function About() {
         <h2 className="text-4xl md:text-5xl font-bold mb-4 font-Bricolage-Grotesque">
           About Us
         </h2>
-        <p className="text-lg text-gray-700 leading-tight">
+        <p className="text-lg text-gray-700 leading-tight md:leading-snug">
           Fortis Healthcare Limited – an IHH Healthcare Berhad Company – is a
           leading integrated healthcare services provider in India. It is one of
           the largest healthcare organizations in the country with 28 healthcare
@@ -114,7 +114,7 @@ function About() {
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className="flex-none bg-blue-900 text-white p-4 md:p-8 rounded-2xl shadow-lg max-w-[19rem] md:max-w-md snap-center"
+                className="flex-none bg-blue-900 text-white p-4 md:p-8 rounded-2xl shadow-lg max-w-fit md:max-w-md snap-center"
               >
                 <div className="flex items-center mb-4">
                   <img
@@ -141,7 +141,7 @@ function About() {
             {testimonials.map((_, index) => (
               <span
                 key={index}
-                className={`w-3 h-3 rounded-full ${
+                className={`w-2 h-2 rounded-full ${
                   index === activeIndex ? "bg-blue-600" : "bg-gray-300"
                 }`}
               />
