@@ -19,7 +19,7 @@ const AboutMedical = () => {
 
       <div className="flex flex-col md:flex-row justify-between items-center bg-white rounded-lg lg:max-w-[1200px] w-4/5 mx-auto">
         {/* Left Section: Image */}
-        <div className="md:w-[40%] flex justify-center mb-6 md:mb-0">
+        <div className="md:w-[40%] flex justify-center mb-6 md:mb-0 md:p-9">
           <img
             src="/doc.png"
             alt="Medical Professional"
