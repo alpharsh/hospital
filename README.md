@@ -1,8 +1,19 @@
-# React + Vite
+# Hospital Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive hospital website built using **React**. This project showcases essential features like appointment booking, services, doctor profiles, and more.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📋 **Appointment Booking**: Patients can book appointments online.
+- 👨‍⚕️ **Doctor Profiles**: Detailed profiles of doctors and their specializations.
+- 🏥 **Departments & Services**: Information about various medical departments and services offered.
+- 🗺️ **Contact & Location**: Integrated Google Maps and contact forms.
+- 💻 **Responsive Design**: Fully responsive and optimized for different devices.
+
+## Tech Stack
+
+- **React**: Frontend framework for building the UI.
+- **Tailwind CSS**: Utility-first CSS framework for fast styling.
+- **React Router**: For navigation and routing between pages.
+- **Axios**: For handling API requests (if needed).
+- **React Hook Form**: For form handling and validation.
