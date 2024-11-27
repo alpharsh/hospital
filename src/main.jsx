@@ -7,6 +7,7 @@ import Contact from './pages/contactus/Contact.jsx'
 import ReactDOM from 'react-dom/client'
 import Home from './pages/home/Home.jsx'
 import Services from './pages/services/Services.jsx'
+import Admin from './pages/admin/Admin.jsx'
 
 const router= createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<Layout />}>
@@ -14,6 +15,7 @@ const router= createBrowserRouter(createRoutesFromElements(
     <Route path='about' element={<About />}/>
     <Route path='contact' element={<Contact />}/>
     <Route path='services' element={<Services />}/>
+    <Route path='admin' element={<Admin />}/>
   </Route>
 ))
 
