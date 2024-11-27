@@ -33,35 +33,22 @@ const TreatmentSection = () => {
         {treatments.map((treatment, index) => (
           <div
             key={index}
-            className="relative rounded-2xl overflow-hidden shadow-lg group hover:shadow-2xl hover:scale-105 transition-transform duration-500"
+            className="bg-white rounded-2xl hover:shadow-[#657ca8] hover:shadow-2xl shadow-xl overflow-hidden transition-transform transform "
           >
-            {/* Blurred Background */}
-            <div className="absolute inset-0 bg-white bg-opacity-10  rounded-2xl"></div>
-
             <img
               src={treatment.imageUrl}
               alt={treatment.title}
-              className="w-full h-40 sm:h-56 md:h-72 object-cover rounded-2xl transition-transform duration-500 group-hover:scale-110"
+              className="w-full h-40 sm:h-56 md:h-72 object-cover rounded-2xl md:rounded-3xl p-1 sm:p-3"
             />
-
-            {/* Content with Glass Effect */}
-            <div className="absolute inset-0 flex flex-col justify-end p-4 bg-gradient-to-t from-black/60 to-transparent rounded-2xl">
-              <h3 className="text-lg md:text-xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300">
-                {treatment.title}
-              </h3>
-              <p className="text-sm md:text-base text-gray-300">
-                {treatment.subtitle}
-              </p>
+            <div className="p-2 px-4 pt-0 ">
+              <h3 className="text-base md:text-lg font-bold text-gray-800">{treatment.title}</h3>
+              <p className="text-sm md:text-base text-gray-500">{treatment.subtitle}</p>
             </div>
-
-            {/* Floating Glow Effect */}
-            <div className="absolute inset-0 group-hover:ring-4 ring-yellow-500 ring-opacity-50 rounded-2xl transition-all duration-500"></div>
           </div>
         ))}
       </div>
     </div>
   );
 };
-
 
 export default TreatmentSection;
