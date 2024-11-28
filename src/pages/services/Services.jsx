@@ -51,28 +51,28 @@ const doctors = [
     name: "Dr. Ketan Kim",
     specialty: "Ophthalmologist",
     imageUrl:
-      "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
+      "https://plus.unsplash.com/premium_photo-1661745717091-488b4d4af658?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 4,
   },
   {
     name: "Dr. Benjamin Clark",
     specialty: "Ophthalmologist",
     imageUrl:
-      "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
+      "https://plus.unsplash.com/premium_photo-1661746228321-8de24c08c6a2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 5,
   },
   {
     name: "Dr. Dan Thomas",
     specialty: "Ophthalmologist",
     imageUrl:
-      "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
+      "https://plus.unsplash.com/premium_photo-1661741194134-c533748d8117?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 4,
   },
   {
     name: "Dr. Sophia Miller",
     specialty: "Ophthalmologist",
     imageUrl:
-      "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
+      "https://plus.unsplash.com/premium_photo-1661690013376-9c1b73f0b16c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 5,
   },
 ];
@@ -133,7 +133,7 @@ function Services() {
           {centers.map((center, index) => (
             <div
               key={index}
-              className="relative bg-white rounded-lg shadow-md overflow-hidden transform transition-all duration-500 hover:scale-105 group"
+              className="relative bg-white rounded-xl shadow-md overflow-hidden transform transition-all duration-500 hover:scale-105 group"
             >
               {/* Image with gradient overlay */}
               <div className="relative">
@@ -150,8 +150,12 @@ function Services() {
 
               {/* Hidden content that appears on hover */}
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-blue-900 bg-opacity-90 opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-6 text-center">
-                <h3 className="text-xl font-bold text-white font-Bricolage-Grotesque">{center.title}</h3>
-                <p className="text-gray-200 mt-2 font-sans">{center.description}</p>
+                <h3 className="text-xl font-bold text-white font-Bricolage-Grotesque">
+                  {center.title}
+                </h3>
+                <p className="text-gray-200 mt-2 font-sans">
+                  {center.description}
+                </p>
               </div>
             </div>
           ))}
@@ -167,16 +171,18 @@ function Services() {
           {doctors.map((doctor, index) => (
             <div
               key={index}
-              className="flex bg-white rounded-lg shadow-md overflow-hidden"
+              className="flex flex-col md:flex-row bg-gray-100 rounded-xl shadow-md overflow-hidden"
             >
-              <img
-                src={doctor.imageUrl}
-                alt={doctor.name}
-                className="w-1/3 h-48 object-cover"
-              />
-              <div className="p-4 flex flex-col justify-between w-2/3">
-                <div>
-                  <h3 className="text-xl font-bold text-gray-800">
+              <div className="md:w-48">
+                <img
+                  src={doctor.imageUrl}
+                  alt={doctor.name}
+                  className="w-full h-40 md:h-48 object-cover"
+                />
+              </div>
+              <div className="p-4 flex flex-col gap-y-3 justify-between md:w-2/3">
+                <div className="flex flex-col gap-y-1">
+                  <h3 className="text-xl font-bold font-sans text-gray-800">
                     {doctor.name}
                   </h3>
                   <p className="text-gray-600">
