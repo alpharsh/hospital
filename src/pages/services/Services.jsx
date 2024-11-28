@@ -7,42 +7,42 @@ const centers = [
     description:
       "28 healthcare facilities, 4,500+ operational beds (including O&M facilities), and over 400 diagnostics centers (incl",
     imageUrl:
-      "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
+      "https://plus.unsplash.com/premium_photo-1661779394380-e372d6a1f198?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Cardiologist",
     description:
       "28 healthcare facilities, 4,500+ operational beds (including O&M facilities), and over 400 diagnostics centers (incl",
     imageUrl:
-      "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
+      "https://plus.unsplash.com/premium_photo-1723478527060-db98550c1c07?q=80&w=2051&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Gynecologist",
     description:
       "28 healthcare facilities, 4,500+ operational beds (including O&M facilities), and over 400 diagnostics centers (incl",
     imageUrl:
-      "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
+      "https://plus.unsplash.com/premium_photo-1702598564277-0984e20bafb7?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Orthopedic",
     description:
       "28 healthcare facilities, 4,500+ operational beds (including O&M facilities), and over 400 diagnostics centers (incl",
     imageUrl:
-      "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
+      "https://plus.unsplash.com/premium_photo-1673773401710-d23ef113e06f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D0",
   },
   {
     title: "Pediatric",
     description:
       "28 healthcare facilities, 4,500+ operational beds (including O&M facilities), and over 400 diagnostics centers (incl",
     imageUrl:
-      "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
+      "https://images.unsplash.com/photo-1578496781379-7dcfb995293d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Surgery",
     description:
       "28 healthcare facilities, 4,500+ operational beds (including O&M facilities), and over 400 diagnostics centers (incl",
     imageUrl:
-      "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?t=st=1729427511~exp=1729431111~hmac=b07051b071323dc93833418904375df0e26dcc46c024de5ba4e079bf89af0a13&w=740",
+      "https://plus.unsplash.com/premium_photo-1661627109539-69d7096ea354?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 
@@ -125,7 +125,7 @@ function Services() {
       </div>
 
       {/* CARDS */}
-      <div className="py-12 md:mt-8 lg:max-w-[1200px] w-11/12 md:w-4/5 mx-auto ">
+      <div className="py-12 md:mt-8 lg:max-w-[1200px] w-11/12 md:w-4/5 mx-auto">
         <h2 className="text-center text-3xl md:text-5xl font-bold text-blue-700 mb-8 font-Bricolage-Grotesque">
           Centers of Excellence
         </h2>
@@ -133,18 +133,25 @@ function Services() {
           {centers.map((center, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-md overflow-hidden "
+              className="relative bg-white rounded-lg shadow-md overflow-hidden transform transition-all duration-500 hover:scale-105 group"
             >
-              <img
-                src={center.imageUrl}
-                alt={center.title}
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-4">
-                <h3 className="text-lg font-bold text-gray-800">
+              {/* Image with gradient overlay */}
+              <div className="relative">
+                <img
+                  src={center.imageUrl}
+                  alt={center.title}
+                  className="w-full h-52 object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent opacity-6=80 group-hover:opacity-0 transition-opacity duration-500"></div>
+                <h3 className="absolute bottom-0 left-0 right-0 text-white text-2xl font-bold p-4 bg-gradient-to-t from-blue-900/40 to-transparent font-Bricolage-Grotesque">
                   {center.title}
                 </h3>
-                <p className="text-gray-600 mt-2">{center.description}</p>
+              </div>
+
+              {/* Hidden content that appears on hover */}
+              <div className="absolute inset-0 flex flex-col justify-center items-center bg-blue-900 bg-opacity-90 opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-6 text-center">
+                <h3 className="text-xl font-bold text-white font-Bricolage-Grotesque">{center.title}</h3>
+                <p className="text-gray-200 mt-2 font-sans">{center.description}</p>
               </div>
             </div>
           ))}
