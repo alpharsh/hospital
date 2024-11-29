@@ -113,12 +113,16 @@ function About() {
           {/* Testimonial Carousel */}
           <div
             ref={scrollRef}
-            className="flex overflow-x-auto rounded-2xl scrollbar-hidden snap-x snap-mandatory md:w-[76.7%] [-ms-overflow-style:none] [scrollbar-width:none]"
+            className="flex overflow-x-auto rounded-2xl scrollbar-hidden snap-x snap-mandatory md:w-[76.7%] [-ms-overflow-style:none] [scrollbar-width:none] space-x-4"
           >
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className="flex-none bg-blue-900 text-white p-4 md:p-8 rounded-2xl shadow-lg max-w-fit md:max-w-md snap-center"
+                className={`flex-none bg-blue-900 text-white p-4 md:p-8 rounded-2xl shadow-lg max-w-fit md:max-w-md snap-center transform transition-all duration-700 ease-in-out ${
+                  index === activeIndex
+                    ? "animate-zoom-fade-slide opacity-100 scale-100"
+                    : "opacity-50 scale-90"
+                }`}
               >
                 <div className="flex items-center mb-4">
                   <img

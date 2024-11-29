@@ -53,7 +53,21 @@
 }
 
 .animate-marquee {
-  display: flex;
-  width: 200%; /* Twice the width for smooth looping */
   animation: marquee 15s linear infinite;
+}
+
+/* Animation for Happy Patients Testimonial Carousel */
+@keyframes zoom-fade-slide {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-zoom-fade-slide {
+  animation: zoom-fade-slide 0.8s ease-out forwards;
 }
