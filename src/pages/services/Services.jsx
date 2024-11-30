@@ -149,7 +149,7 @@ function Services() {
               </div>
 
               {/* Hidden content that appears on hover */}
-              <div className="absolute inset-0 flex flex-col justify-center items-center bg-blue-900 bg-opacity-90 opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-6 text-center">
+              <div className="absolute inset-0 flex flex-col justify-center items-center backdrop-blur-sm bg-blue-900 bg-opacity-90 opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-6 text-center">
                 <h3 className="text-xl font-bold text-white font-Bricolage-Grotesque">
                   {center.title}
                 </h3>
