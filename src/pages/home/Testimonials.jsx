@@ -31,7 +31,7 @@ const Testimonials = () => {
       <h2 className="text-center text-4xl md:text-6xl font-Bricolage-Grotesque font-bold mb-8">
         Testimonials
       </h2>
-      <div className="flex w-11/12 sm:w-4/5 mx-auto lg:max-w-[1200px]">
+      <div className="flex w-11/12 xl:w-3/5 mx-auto lg:max-w-[1000px]">
         <div className="flex overflow-x-auto space-x-8 md:space-x-8 [-ms-overflow-style:none] [scrollbar-width:none]">
           {testimonials.map((testimonial, index) => (
             <div
@@ -42,7 +42,7 @@ const Testimonials = () => {
                   : "bg-white text-[#0022FF]"
               } flex-grow `}
             >
-              <div className="flex justify-center sm:mt-5 mb-1 sm:mb-4">
+              <div className="flex justify-center  mb-1 sm:mb-4">
                 {[...Array(5)].map((_, i) => (
                   <span
                     key={i}
@@ -51,7 +51,7 @@ const Testimonials = () => {
                     }`}
                   >
                     <svg
-                      className="w-8 md:w-12 h-8 md:h-12"
+                      className="w-8 md:w-10 h-8 md:h-10"
                       viewBox="0 0 51 51"
                       fill={testimonial.featured ? "#E0E0E0" : "#1500FF"}
                       xmlns="http://www.w3.org/2000/svg"
@@ -65,9 +65,9 @@ const Testimonials = () => {
                 {testimonial.name}
               </h3>
               <p className="text-center text-sm md:text-lg mb-4">{testimonial.role}</p>
-              <div className="flex justify-center mb-2 sm:mb-7 text-center">
+              <div className="flex justify-center mb-2 sm:mb-5 text-center">
                 <svg
-                  className="w-6 sm:w-10"
+                  className="w-6 sm:w-8"
                   viewBox="0 0 43 37"
                   fill={testimonial.featured ? "#E0E0E0" : "#1500FF"}
                   xmlns="http://www.w3.org/2000/svg"
