@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const InfoBanner = () => {
   return (
-    <div className="bg-blue-500 text-white py-4 overflow-hidden">
+    <div className="bg-blue-500 text-white py-3 overflow-hidden">
       <div className="container lg:max-w-[1200px] mx-auto w-[90%] md:w-5/6 flex flex-col md:flex-row items-center justify-between md:px-6">
         {/* Left Section: Icon and Text */}
         <div className="flex items-center space-x-4 md:space-x-6">
