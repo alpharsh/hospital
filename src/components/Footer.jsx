@@ -13,9 +13,9 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-start">
           <div className="flex items-center mb-4">
             <img
-              src="/rdmlogowhite.png"
+              src="/rdmlogo.png"
               alt="Logo"
-              className="h-16 w-auto object-contain"
+              className="h-12 w-auto object-contain"
             />
           </div>
           <p className="text-center md:text-left text-base leading-relaxed">

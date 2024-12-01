@@ -14,7 +14,7 @@ const Header = () => {
         {/* Logo Section */}
         <div className="flex items-center">
           <Link to="/">
-            <img src="/rdmlogowhite.png" alt="Logo" className="h-11 md:h-14" />
+            <img src="/rdmlogo.png" alt="Logo" className="h-10 p-1 md:h-12" />
           </Link>
         </div>
 
@@ -24,7 +24,7 @@ const Header = () => {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? "text-blue-500 border-b-2 rounded-md border-blue-500"
+                ? "text-blue-500 font-sans border-b-2 rounded-md border-blue-500"
                 : "text-white"
             }
           >
