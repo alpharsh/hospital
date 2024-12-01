@@ -81,7 +81,7 @@ const Slider = () => {
       {/* Left Button */}
       <button
         onClick={prevSlide}
-        className="absolute left-2 top-1/2 transform -translate-y-1/2 text-xs md:text-xl bg-black/40 p-[0.40rem] rounded-full text-white/80 shadow-lg"
+        className="absolute left-2 top-1/2 transform -translate-y-1/2 opacity-40 text-xs md:text-xl bg-black/40 p-[0.40rem] rounded-full text-white/80 shadow-lg"
       >
         <FaChevronLeft />   
       </button>
@@ -89,7 +89,7 @@ const Slider = () => {
       {/* Right Button */}
       <button
         onClick={nextSlide}
-        className="absolute right-3 top-1/2 transform -translate-y-1/2 text-xs md:text-xl bg-black/40 p-[0.40rem] rounded-full text-white/80 shadow-lg"
+        className="absolute right-3 top-1/2 transform -translate-y-1/2 opacity-40 text-xs md:text-xl bg-black/40 p-[0.40rem] rounded-full text-white/80 shadow-lg"
       >
         <FaChevronRight />
       </button>
