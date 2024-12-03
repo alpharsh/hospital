@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-// import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +34,7 @@ const Header = () => {
               to={link.path}
               className={({ isActive }) =>
                 isActive
-                  ? "text-blue-500 border-b-2 rounded-md border-blue-500"
+                  ? "border-b-2 rounded-sm border-blue-500"
                   : "text-white"
               }
             >
@@ -89,14 +88,14 @@ const Header = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden fixed top-0 left-0 rounded-2xl w-full bg-[#002570]/70 backdrop-blur-lg text-white overflow-hidden transition-all duration-700 ease-[cubic-bezier(0.68,-0.55,0.27,1.55)] transform ${
+        className={`md:hidden fixed top-0 left-0 rounded-2xl w-full bg-[#002570]/70 backdrop-blur-3xl text-white overflow-hidden transition-all duration-700 ease-[cubic-bezier(0.68,-0.55,0.27,1.55)] transform ${
           isOpen
             ? "translate-y-[72px] opacity-100"
             : "-translate-y-full opacity-0"
         }`}
         style={{ zIndex: isOpen ? 40 : -1 }}
       >
-        <nav className="flex flex-col backdrop-blur-3xl items-center space-y-4 py-6">
+        <nav className="flex flex-col bg-[#002570]/40 backdrop-blur-3xl items-center space-y-4 py-6">
           {navLinks.map((link) => (
             <NavLink
               key={link.name}
@@ -104,7 +103,7 @@ const Header = () => {
               onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive
-                  ? "text-blue-500 border-b-2 rounded-md border-blue-500"
+                  ? "border-b-2 rounded-sm border-blue-500"
                   : "text-white"
               }
             >
