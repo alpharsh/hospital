@@ -8,58 +8,39 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
 
+  // Array of routes for navigation
+  const navLinks = [
+    { name: "Home", path: "/" },
+    { name: "About", path: "/about" },
+    { name: "Services", path: "/services" },
+    { name: "Contact", path: "/contact" },
+  ];
+
   return (
     <header className="bg-gradient-to-r fixed top-0 z-50 w-full bg-[#002570]/70 backdrop-blur-xl text-white py-[0.4rem] md:py-2 px-8 shadow-lg md:rounded-bl-2xl md:rounded-br-2xl">
       <div className="container lg:max-w-[1200px] mx-auto flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center">
           <Link to="/">
-            <img src="/rdmlogo.png" alt="Logo" className="h-10  md:h-12" />
+            <img src="/rdmlogo.png" alt="Logo" className="h-10 md:h-12" />
           </Link>
         </div>
 
         {/* Navigation Links for Desktop */}
         <nav className="hidden md:flex space-x-8">
-          <NavLink
-            to="/"
-            className={({ isActive }) =>
-              isActive
-                ? "text-blue-500 font-sans border-b-2 rounded-md border-blue-500"
-                : "text-white"
-            }
-          >
-            Home
-          </NavLink>
-          <NavLink
-            to="/about"
-            className={({ isActive }) =>
-              isActive
-                ? "text-blue-500 border-b-2 rounded-md border-blue-500"
-                : "text-white"
-            }
-          >
-            About
-          </NavLink>
-          <NavLink
-            to="/services"
-            className={({ isActive }) =>
-              isActive
-                ? "text-blue-500 border-b-2 rounded-md border-blue-500"
-                : "text-white"
-            }
-          >
-            Services
-          </NavLink>
-          <NavLink
-            to="/contact"
-            className={({ isActive }) =>
-              isActive
-                ? "text-blue-500 border-b-2 rounded-md border-blue-500"
-                : "text-white"
-            }
-          >
-            Contact
-          </NavLink>
+          {navLinks.map((link) => (
+            <NavLink
+              key={link.name}
+              to={link.path}
+              className={({ isActive }) =>
+                isActive
+                  ? "border-b-2 rounded-sm border-blue-500"
+                  : "text-white"
+              }
+            >
+              {link.name}
+            </NavLink>
+          ))}
         </nav>
 
         {/* Hamburger Menu for Mobile */}
@@ -107,56 +88,28 @@ const Header = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden fixed top-0 left-0 rounded-2xl w-full bg-[#002570]/70 backdrop-blur-lg text-white overflow-hidden transition-all duration-700 ease-[cubic-bezier(0.68,-0.55,0.27,1.55)] transform ${
-          isOpen ? "translate-y-[72px] opacity-100" : "-translate-y-full opacity-0"
+        className={`md:hidden fixed top-0 left-0 rounded-2xl w-full bg-[#002570]/70 backdrop-blur-3xl text-white overflow-hidden transition-all duration-700 ease-[cubic-bezier(0.68,-0.55,0.27,1.55)] transform ${
+          isOpen
+            ? "translate-y-[72px] opacity-100"
+            : "-translate-y-full opacity-0"
         }`}
         style={{ zIndex: isOpen ? 40 : -1 }}
       >
-        <nav className="flex flex-col backdrop-blur-3xl items-center space-y-4 py-6">
-          <NavLink
-            to="/"
-            onClick={() => setIsOpen(false)}
-            className={({ isActive }) =>
-              isActive
-                ? "text-blue-500 border-b-2 rounded-md border-blue-500"
-                : "text-white"
-            }
-          >
-            Home
-          </NavLink>
-          <NavLink
-            to="/about"
-            onClick={() => setIsOpen(false)}
-            className={({ isActive }) =>
-              isActive
-                ? "text-blue-500 border-b-2 rounded-md border-blue-500"
-                : "text-white"
-            }
-          >
-            About
-          </NavLink>
-          <NavLink
-            to="/services"
-            onClick={() => setIsOpen(false)}
-            className={({ isActive }) =>
-              isActive
-                ? "text-blue-500 border-b-2 rounded-md border-blue-500"
-                : "text-white"
-            }
-          >
-            Services
-          </NavLink>
-          <NavLink
-            to="/contact"
-            onClick={() => setIsOpen(false)}
-            className={({ isActive }) =>
-              isActive
-                ? "text-blue-500 border-b-2 rounded-md border-blue-500"
-                : "text-white"
-            }
-          >
-            Contact
-          </NavLink>
+        <nav className="flex flex-col bg-[#002570]/40 backdrop-blur-3xl items-center space-y-4 py-6">
+          {navLinks.map((link) => (
+            <NavLink
+              key={link.name}
+              to={link.path}
+              onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive
+                  ? "border-b-2 rounded-sm border-blue-500"
+                  : "text-white"
+              }
+            >
+              {link.name}
+            </NavLink>
+          ))}
         </nav>
       </div>
     </header>
