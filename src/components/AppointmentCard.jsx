@@ -15,17 +15,21 @@ const AppointmentCard = () => {
           style={{ backgroundImage: "url('/steth.png')" }}
         ></div>
         <div className="relative z-20 flex flex-col items-center">
-          <h4 className="text-5xl md:text-7xl font-bold mb-4 font-Bricolage-Grotesque text-[#0022FF]">
-            Make Appointment
+          <h4 className="text-4xl md:text-7xl font-bold mb-4 font-Bricolage-Grotesque text-[#0022FF]">
+            Your health is our priority
           </h4>
-          <h2 className="text-lg text-[#0022FF] md:text-2xl font-normal leading-tight mb-8 md:mb-10 mx-auto md:w-7/12">
-            Make an Online Appoinemnt Booking For Treatment Patients
+          <h2 className="text-base text-[#0022FF] md:text-2xl font-normal leading-tight mb-8 md:mb-10 mx-auto md:w-7/12">
+            No matter if you come for your basic health check-up or if you need
+            some highly specialized treatment, we are with you each step of the
+            way.
           </h2>
           <Link to="/contact">
-          <button className="bg-[#0022FF] flex justify-center md:mb-6 items-center text-white md:text-[22px] md:py-2 px-3 md:px-6 rounded-full hover:bg-[#303e99] transition duration-300">
-            <span>BOOK APPOINTMENT</span>
-            <span className="ml-2"><GiStethoscope className="transform -rotate-12 text-3xl"/></span>
-          </button>
+            <button className="bg-[#0022FF] flex justify-center md:mb-6 items-center text-white md:text-[22px] md:py-2 px-3 md:px-6 rounded-full hover:bg-[#303e99] transition duration-300">
+              <span>BOOK APPOINTMENT</span>
+              <span className="ml-2">
+                <GiStethoscope className="transform -rotate-12 text-3xl" />
+              </span>
+            </button>
           </Link>
         </div>
       </div>

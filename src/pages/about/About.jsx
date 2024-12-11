@@ -8,33 +8,45 @@ function About() {
 
   const testimonials = [
     {
-      name: "Mikelson Klaus",
-      role: "SATISFIED PATIENT",
-      text: "Commerce end interfaces with collaborative strategies. Appropriately enhance alignments after team solutions for growth in corporate web-readiness.",
+      name: "Anjali Sinha",
+      role: "Patient",
+      text: "RD Memorial Hospital remains the light at the end of the tunnel. During my admission when I was taken clinically when a critical emergency arose, the competent medical team responded to the challenge and rescued me. They are professionals coupled with care that is rare to find in other medical facilities. I’m forever grateful!",
       img: "/doc.png",
     },
     {
-      name: "Sophia Wilson",
-      role: "SATISFIED PATIENT",
-      text: "Transformative healthcare service. Uniquely personalized care provided by the incredible team here. Truly the best experience.",
+      name: "Rohit Kumar",
+      role: "Patient",
+      text: "This kept surprising me especially with the sort of facilities and contacts RD Memorial Hospital boasted of. Very often the doctors and the nurses are tired, but they still take time to answer my questions and elaborately tell me about my treatment. Highly recommend it!",
       img: "/doc.png",
     },
     {
-      name: "Liam Carter",
-      role: "SATISFIED PATIENT",
-      text: "The care provided was beyond expectations. Highly recommended for anyone seeking world-class medical treatment.",
+      name: "Priya Tiwari",
+      role: "Patient",
+      text: "They pride themselves in professional staff, friendly, compassionate to patients and their families. As soon as I got to RD Memorial Hospital I had a feeling that I was going to be well taken care of. The staff is professional, friendly and extremely supportive. It became quite easy for me and my family to deal with them during what could have definitely been very stressful moments for all of us.",
       img: "/doc.png",
     },
     {
-      name: "Olivia Brown",
-      role: "SATISFIED PATIENT",
-      text: "Efficient and compassionate staff. Thank you for making a challenging time easier to manage.",
+      name: "Shweta Pandey",
+      role: "New Mother",
+      text: "Speaking of my experience, right, I want to say that I was in the maternity ward of RD Memorial Hospital and I really liked it there. If it was not for the care of the doctors and nurses, both mine and the baby were well taken care of. It covered the aspect of cleanliness of the facilities put in place and the enormous post-delivery support. Thank you!",
       img: "/doc.png",
     },
     {
-      name: "Ethan Martinez",
-      role: "SATISFIED PATIENT",
-      text: "Amazing care and expertise throughout my treatment. Couldn't have asked for more.",
+      name: "Vikram",
+      role: "Caregiver",
+      text: "The team at RD Memorial Hospital immediately attended us when I rushed my father to the hospital in an emergency. They know what to do, and they did it fast. Today, my father is healthy once more and is out of danger. Kudos to the entire team!",
+      img: "/doc.png",
+    },
+    {
+      name: "Aarti Niranjan",
+      role: "Patient",
+      text: "On its own, holistic care of this type means going above and beyond what is expected in a given situation. RD Memorial Hospital gave me a more than patient feeling and this was due to the following reasons. They are really concerned about your health. Apart from healing, the doctors went out of their way to assist with advice on how to lead a better lifestyle.",
+      img: "/doc.png",
+    },
+    {
+      name: "Karan Mishra",
+      role: "Family Member",
+      text: "Indeed, over the last five fiscal years, RD Memorial Hospital has been serving as a healthcare centre for our family. Whether this is a general annual check-up or something more specific we are always well looked after. Highly dependable!",
       img: "/doc.png",
     },
   ];
@@ -86,16 +98,25 @@ function About() {
           About Us
         </h2>
         <p className="text-lg text-gray-700 leading-tight md:leading-snug">
-          Fortis Healthcare Limited – an IHH Healthcare Berhad Company – is a
-          leading integrated healthcare services provider in India. It is one of
-          the largest healthcare organizations in the country with 28 healthcare
-          facilities, 4,500+ operational beds (including O&M facilities), and
-          over 400 diagnostics centers (including JVs). Fortis is present in
-          India, the United Arab Emirates (UAE), Nepal & Sri Lanka. The Company
-          is listed on the BSE Ltd and National Stock Exchange (NSE) of India.
-          It draws strength from its partnership with global major and parent
-          company - IHH, to build upon its culture of world-class patient care
-          and superlative clinical excellence.
+          RD Memorial Hospital erects itself as a Solace and Health on wheels
+          which is an emblem of quality health care service. Being one of the
+          leading multi-specialty hospitals, we are proud of the team of medical
+          professionals, all of our doctors are leaders in their spheres, with
+          vast experience. <br />
+          <br />
+          The care at our hospital rests on the principle of patient-centered
+          care which means that a patient gets attention based on the individual
+          need they may have. With fully equipped hi-tech equipments and superb
+          facilities, patients enjoy the up-to-date quality treatments on
+          reasonable fees. <br />
+          <br />
+          At RD Memorial Hospital we have most efficient and responsible team of
+          medical specialists and caregivers whose mission is to provide the
+          highest quality of medical care including the routine check-up and the
+          major surgery. Our commitment to providing the very best quality care
+          with compassion establishes our organization as one that can indeed
+          chart new heights for the service of healthcare to the relevant
+          society.
         </p>
       </div>
       <AboutMedical />
@@ -103,11 +124,12 @@ function About() {
         {/* Text Section */}
         <div className="w-11/12 lg:w-1/2 text-center lg:text-left">
           <h2 className="text-3xl md:text-6xl font-bold mb-4 font-Bricolage-Grotesque">
-            Our Happy Patients
+            Our Happy Journey
           </h2>
           <p className="text-lg text-gray-600 leading-tight mb-8">
-            Professional without enterprise e-commerce. Uniquely happy clients
-            innovative technologies via team member.
+            Each client is grateful to receive professional healthcare support
+            in the most crucial moments of life and become much better with the
+            help of innovative technologies.
           </p>
 
           {/* Testimonial Carousel */}

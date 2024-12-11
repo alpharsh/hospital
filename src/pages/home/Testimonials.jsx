@@ -3,25 +3,25 @@ import React from "react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "PARVEZ HUSSAIN",
+      name: "Anjali Sinha",
       role: "PATIENT",
       quote:
-        "Their SEO and content expertise put my fitness brand on the map! Highly recommend.",
+        "RD Memorial Hospital remains the light at the end of the tunnel. During my admission when I was taken clinically when a critical emergency arose, the competent medical team responded to the challenge and rescued me. They are professionals coupled with care that is rare to find in other medical facilities. I’m forever grateful!",
       rating: 5,
     },
     {
-      name: "PARVEZ HUSSAIN",
+      name: "Rohit Kumar",
       role: "PATIENT",
       quote:
-        "Their SEO and content expertise put my fitness brand on the map! Highly recommend.",
+        "This kept surprising me especially with the sort of facilities and contacts RD Memorial Hospital boasted of. Very often the doctors and the nurses are tired, but they still take time to answer my questions and elaborately tell me about my treatment. Highly recommend it!",
       rating: 5,
       featured: true,
     },
     {
-      name: "PARVEZ HUSSAIN",
+      name: "Karan Mishra",
       role: "PATIENT",
       quote:
-        "Their SEO and content expertise put my fitness brand on the map! Highly recommend.",
+        "Indeed, over the last five fiscal years, RD Memorial Hospital has been serving as a healthcare centre for our family. Whether this is a general annual check-up or something more specific we are always well looked after. Highly dependable!",
       rating: 5,
     },
   ];
@@ -61,10 +61,12 @@ const Testimonials = () => {
                   </span>
                 ))}
               </div>
-              <h3 className="text-lg sm:text-2xl font-bold text-center">
+              <h3 className="text-lg sm:text-2xl font-bold text-center uppercase">
                 {testimonial.name}
               </h3>
-              <p className="text-center text-sm md:text-lg mb-4">{testimonial.role}</p>
+              <p className="text-center text-sm md:text-lg mb-4">
+                {testimonial.role}
+              </p>
               <div className="flex justify-center mb-2 sm:mb-5 text-center">
                 <svg
                   className="w-6 sm:w-8"

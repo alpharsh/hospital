@@ -30,7 +30,7 @@ const TreatmentSection = () => {
   return (
     <div className="py-10 sm:py-20 bg-gray-100">
       <h2 className="text-center text-4xl md:text-6xl font-Bricolage-Grotesque font-bold mb-8">
-        Provide Best Treatments
+        Our Facilities
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-7 lg:max-w-[1200px] w-11/12 md:w-4/5 mx-auto">
         {treatments.map((treatment, index) => (
