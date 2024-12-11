@@ -5,42 +5,42 @@ const centers = [
   {
     title: "Physician",
     description:
-      "28 healthcare facilities, 4,500+ operational beds (including O&M facilities), and over 400 diagnostics centers (incl",
+      "You can rely on the best diagnosis as well as medical management and therapy of diseases by our qualified physicians.",
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1661779394380-e372d6a1f198?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    title: "Cardiologist",
+    title: "Cardiology",
     description:
-      "28 healthcare facilities, 4,500+ operational beds (including O&M facilities), and over 400 diagnostics centers (incl",
+      "It involves treatment of most heart related illnesses; that is diagnosing the nature of the problem, as well as measures that can be taken to enhance the health of the heart.",
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1723478527060-db98550c1c07?q=80&w=2051&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    title: "Gynecologist",
+    title: "Gynecology",
     description:
-      "28 healthcare facilities, 4,500+ operational beds (including O&M facilities), and over 400 diagnostics centers (incl",
+      "Developed clinical practice based on women’s health care is why we offer superior women’s health services and tests like physical exams and reproductive health check-ups etc.",
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1702598564277-0984e20bafb7?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    title: "Orthopedic",
+    title: "Orthopedics",
     description:
-      "28 healthcare facilities, 4,500+ operational beds (including O&M facilities), and over 400 diagnostics centers (incl",
+      "Our practices in orthopedic sub-specialties include care of bone, joint and muscle in a bid to get total body motion and strength",
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1673773401710-d23ef113e06f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D0",
   },
   {
-    title: "Pediatric",
+    title: "Pediatrics",
     description:
-      "28 healthcare facilities, 4,500+ operational beds (including O&M facilities), and over 400 diagnostics centers (incl",
+      "Various age children appreciate our professional and friendly services starting from infants, children and adolescent, they are well developed.",
     imageUrl:
       "https://images.unsplash.com/photo-1578496781379-7dcfb995293d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    title: "Surgery",
+    title: "Surgical",
     description:
-      "28 healthcare facilities, 4,500+ operational beds (including O&M facilities), and over 400 diagnostics centers (incl",
+      "Role players include our professional physicians and advanced operating rooms which meet several surgery standard to ensure safe and efficient surgery performances to each surgery that we undertake.",
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1661627109539-69d7096ea354?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -48,29 +48,36 @@ const centers = [
 
 const doctors = [
   {
-    name: "Dr. Ketan Kim",
+    name: "Dr. Vijay Kushwaha ",
     specialty: "Ophthalmologist",
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1661745717091-488b4d4af658?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 4,
   },
   {
-    name: "Dr. Benjamin Clark",
-    specialty: "Ophthalmologist",
+    name: "Dr. Kumar Saurav Kushwaha",
+    specialty: "MD Physician, Minilab Surgeon",
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1661746228321-8de24c08c6a2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 5,
   },
   {
-    name: "Dr. Dan Thomas",
+    name: "Dr. Reetu Singh Kushwaha",
     specialty: "Ophthalmologist",
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1661741194134-c533748d8117?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 4,
   },
   {
-    name: "Dr. Sophia Miller",
-    specialty: "Ophthalmologist",
+    name: "Dr. Avinash Jaiswal ",
+    specialty: "Orthopedic",
+    imageUrl:
+      "https://plus.unsplash.com/premium_photo-1661690013376-9c1b73f0b16c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    rating: 5,
+  },
+  {
+    name: "Dr. Akbar Alam",
+    specialty: "Surgeon",
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1661690013376-9c1b73f0b16c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 5,
@@ -133,7 +140,7 @@ function Services() {
           {centers.map((center, index) => (
             <div
               key={index}
-              className="relative bg-white rounded-xl shadow-md overflow-hidden transform transition-all duration-500 hover:scale-105 group"
+              className="relative bg-white rounded-xl cursor-pointer shadow-md overflow-hidden transform transition-all duration-500 hover:scale-105 group"
             >
               {/* Image with gradient overlay */}
               <div className="relative">

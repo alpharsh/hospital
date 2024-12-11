@@ -12,7 +12,7 @@ import { RiChatSmile2Line } from "react-icons/ri";
 import { GiMedicines } from "react-icons/gi";
 import { PiHospitalLight } from "react-icons/pi";
 import { TbReportSearch } from "react-icons/tb";
-import CountUp from 'react-countup';
+import CountUp from "react-countup";
 import { Link } from "react-router-dom";
 
 const services = [
@@ -81,10 +81,11 @@ function Home() {
               </div>
             </h1>
             <p className="mb-8 font-sans text-lg max-w-lg">
-              Explicabo esse amet tempora quibusdam laudantium, laborum eaque
-              magnam fugiat hic? Esse dicta aliquid error repudiandae earum
-              suscipit fugiat molestias, veniam, vel architecto veritatis
-              delectus repellat modi impedit sequi.
+              RD Memorial Hospital is a testimony and a source of hope of
+              quality health care for patients for more than 5 years now. The
+              organizational vision is to be an institution whose healthcare
+              delivery improves the vast quality of lives, highly recommended
+              for passionate and genuine caregivers.
             </p>
             <Link
               to="/about"
@@ -167,21 +168,25 @@ function Home() {
               Medical Achievement Health Protection
             </h3>
             <h3 className="text-xl mb-2 md:hidden md:text-3xl font-semibold font-Bricolage-Grotesque text-blue-600">
-              Medical Achievement
+              A Legacy of Care
             </h3>
           </div>
- 
+
           {/* Stats Section */}
           <div className="flex items-center space-x-12">
             <div className="text-center">
-              <p className="text-3xl font-bold text-black"><CountUp end={67} enableScrollSpy={true}/>+</p>
+              <p className="text-3xl font-bold text-black">
+                <CountUp end={5624} enableScrollSpy={true} />+
+              </p>
               <hr className="border border-blue-300 w-full mt-1" />
               <p className="text-gray-600 text-sm md:text-base leading-tight">
                 Satisfied Patients
               </p>
             </div>
             <div className="text-center">
-              <p className="text-3xl font-bold text-black"><CountUp end={100} enableScrollSpy={true}/>%</p>
+              <p className="text-3xl font-bold text-black">
+                <CountUp end={100} enableScrollSpy={true} />%
+              </p>
               <hr className="border border-blue-300 w-full mt-1" />
               <p className="text-gray-600 text-sm md:text-base leading-tight">
                 Satisfaction Rates
@@ -193,8 +198,8 @@ function Home() {
           <div className="flex w-4/5 lg:max-w-[1000px] mt-10 md:mt-24 mx-auto flex-col lg:flex-row justify-around items-center">
             {/* Professional Section */}
             <div className="flex flex-col space-y-2 items-center text-center bg-white p-6 md:p-5 rounded-3xl  w-full  mx-4 my-4">
-              <h3 className="text-2xl md:text-xl font-bold mb-1">
-                OUR PROFESSIONAL
+              <h3 className="text-2xl md:text-xl font-bold mb-1 uppercase">
+                Expert Team
               </h3>
               <img
                 src="/img1.png"
@@ -205,14 +210,16 @@ function Home() {
                 90+ Doctors
               </p>
               <p className="text-base leading-tight text-gray-600">
-                Rapidiously reinvent long-term impact collaboration
+                We have professional doctors, surgeons and qualified nurses and
+                other health care practitioners but we are also dedicated to
+                you.
               </p>
             </div>
 
             {/* Booking Section */}
             <div className="flex flex-col space-y-2 items-center text-center bg-white p-5 rounded-3xl  w-full  mx-4 my-4">
-              <h3 className="text-2xl md:text-xl font-bold mb-1">
-                BOOKING
+              <h3 className="text-2xl md:text-xl font-bold mb-1 uppercase">
+                Comprehensive Care
               </h3>
               <img
                 src="/img2.png"
@@ -223,14 +230,16 @@ function Home() {
                 +123 (4567) 890
               </p>
               <p className="text-base leading-tight text-gray-600">
-                Call Us for Booking appointments online 24x7 hour
+                There is a standard operating procedure from the time the
+                disease is diagnosed to the time the patient is cured or
+                developed immunity against that disease.
               </p>
             </div>
 
             {/* Location Section */}
             <div className="flex flex-col space-y-2 items-center text-center bg-white p-5 rounded-3xl  w-full  mx-4 my-4">
-              <h3 className="text-2xl font-bold mb-1">
-                LOCATION
+              <h3 className="text-xl font-bold mb-1 uppercase">
+                Patient-Centered Approach
               </h3>
               <img
                 src="/img3.png"
@@ -241,7 +250,8 @@ function Home() {
                 Locate Us
               </p>
               <p className="text-base leading-tight text-gray-600">
-                Rapaciously reinvent long-term impact collaboration
+                We lay emphasis over your health, comfort and convenience all
+                through the process.
               </p>
             </div>
           </div>

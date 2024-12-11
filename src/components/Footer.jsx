@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import {
   FaInstagram,
   FaFacebookF,
   FaLinkedinIn,
   FaTwitter,
-} from 'react-icons/fa'; // Import icons
+} from "react-icons/fa"; // Import icons
 const Footer = () => {
   return (
     <footer className="bg-[#002570] text-white py-8 pb-5">
@@ -19,8 +19,9 @@ const Footer = () => {
             />
           </div>
           <p className="text-center md:text-left text-base leading-relaxed">
-            Completely promote interdependent systems for the latest updates in
-            the medical field.
+            At the RD Memorial Hospital, we hold our purpose in extending
+            state-of-the-art high-quality services in healthcare that is full of
+            composites with an aptitude for accurate and creative work.
           </p>
         </div>
 
@@ -31,7 +32,9 @@ const Footer = () => {
             102/ B Street, New Elephant Road, Sandigo, USA
           </p>
 
-          <h3 className="font-semibold text-lg mt-6 mb-3 uppercase">Call Now</h3>
+          <h3 className="font-semibold text-lg mt-6 mb-3 uppercase">
+            Call Now
+          </h3>
           <a
             href="tel:+1234567890"
             className="text-base hover:text-gray-300 transition duration-300"
@@ -50,7 +53,9 @@ const Footer = () => {
             example@gmail.com
           </a>
 
-          <h3 className="font-semibold text-lg mt-6 mb-3 uppercase">Follow Us</h3>
+          <h3 className="font-semibold text-lg mt-6 mb-3 uppercase">
+            Follow Us
+          </h3>
           <div className="flex space-x-4">
             <a
               href="https://instagram.com"
@@ -90,7 +95,9 @@ const Footer = () => {
 
       {/* Bottom Section */}
       <div className="mt-8 border-t border-gray-500 pt-4 text-center text-sm md:text-base">
-        <p>&copy; {new Date().getFullYear()} RDM Hospital. All rights reserved.</p>
+        <p>
+          &copy; {new Date().getFullYear()} RDM Hospital. All rights reserved.
+        </p>
       </div>
     </footer>
   );
