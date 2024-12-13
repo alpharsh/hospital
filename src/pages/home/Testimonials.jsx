@@ -36,7 +36,7 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className={`min-w-[300px] max-w-[300px] flex-shrink-0 flex-grow-0 p-4 md:p-6 rounded-xl  ${
+              className={`md:min-w-[300px] md:max-w-[300px] md:flex-shrink-0 md:flex-grow-0 p-4 md:p-6 rounded-xl  ${
                 testimonial.featured
                   ? "bg-blue-900 text-white"
                   : "bg-white text-[#0022FF]"
