@@ -6,7 +6,7 @@ const Testimonials = () => {
       name: "Anjali Sinha",
       role: "PATIENT",
       quote:
-        "RD Memorial Hospital remains the light at the end of the tunnel. During my admission when I was taken clinically when a critical emergency arose, the competent medical team responded to the challenge and rescued me. They are professionals coupled with care that is rare to find in other medical facilities. I’m forever grateful!",
+        "RD Memorial Hospital remains the light at the end of the tunnel. During my admission when I was taken clinically when a critical emergency arose. They are professionals coupled with care that is rare to find in other medical facilities. I’m forever grateful!",
       rating: 5,
     },
     {
@@ -31,18 +31,18 @@ const Testimonials = () => {
       <h2 className="text-center text-4xl md:text-6xl font-Bricolage-Grotesque font-bold mb-8">
         Testimonials
       </h2>
-      <div className="flex w-11/12 xl:w-3/5 mx-auto lg:max-w-[1000px]">
+      <div className="flex w-11/12 xl:w-4/6 justify-center mx-auto lg:max-w-[1200px]">
         <div className="flex overflow-x-auto space-x-8 md:space-x-8 [-ms-overflow-style:none] [scrollbar-width:none]">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className={`p-4 md:p-6 rounded-xl  ${
+              className={`min-w-[300px] max-w-[300px] flex-shrink-0 flex-grow-0 p-4 md:p-6 rounded-xl  ${
                 testimonial.featured
                   ? "bg-blue-900 text-white"
                   : "bg-white text-[#0022FF]"
               } flex-grow `}
             >
-              <div className="flex justify-center  mb-1 sm:mb-4">
+              <div className="flex justify-center mb-1 sm:mb-4">
                 {[...Array(5)].map((_, i) => (
                   <span
                     key={i}
