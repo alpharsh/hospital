@@ -5,7 +5,7 @@ import InfoBanner from "../../components/InfoBanner";
 function About() {
   const scrollRef = useRef(null);
   const [activeIndex, setActiveIndex] = useState(0);
-
+// this data needs to be put in the separate file and imported here
   const testimonials = [
     {
       name: "Anjali Sinha",
