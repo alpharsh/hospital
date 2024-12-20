@@ -10,7 +10,7 @@ const AboutMedical = () => {
             About Medical
           </h1>
           <div className="flex items-center space-x-3 md:space-x-7 font-Bricolage-Grotesque">
-            <div className="text-4xl font-bold">10+</div>
+            <div className="text-4xl font-bold">40+</div>
             <div className="w-1/2 md:text-xl">YEARS OF EXPERIENCE</div>
           </div>
         </div>
@@ -31,7 +31,7 @@ const AboutMedical = () => {
           {/* About Us Description */}
           <h3 className="text-2xl md:text-4xl font-semibold">About Us</h3>
           <p className="md:text-lg leading-tight">
-            Since 2007 We're working Medical group of more than 1200+ Patients
+            Since 1984 We're working Medical group of more than 1200+ Patients
             help from our medical.
           </p>
 
