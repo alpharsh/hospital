@@ -29,17 +29,23 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-start">
           <h3 className="font-semibold text-lg mb-3 uppercase">Address</h3>
           <p className="text-base text-center md:text-left">
-            102/ B Street, New Elephant Road, Sandigo, USA
+            Vijay Nagar, Puramufti, Prayagraj, U.P.
           </p>
 
           <h3 className="font-semibold text-lg mt-6 mb-3 uppercase">
             Call Now
           </h3>
           <a
-            href="tel:+1234567890"
+            href="tel:+91 97179 66193"
             className="text-base hover:text-gray-300 transition duration-300"
           >
-            +123 (4567) - 890
+            +91 97179 66193
+          </a>
+          <a
+            href="tel:+91 97179 66193"
+            className="text-base hover:text-gray-300 transition duration-300"
+          >
+            +91 93351 55072
           </a>
         </div>
 

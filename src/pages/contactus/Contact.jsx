@@ -69,7 +69,7 @@ function Contact() {
         <div className="w-full lg:w-1/2">
           <div className="relative rounded-3xl overflow-hidden shadow-lg">
             <iframe
-              src="https://maps.google.com/maps?q=Prayagraj&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d460894.4613911015!2d81.4519194!3d25.5137837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399ad25dad8c7e49%3A0xca7892c13ea4752d!2sR%20D%20Memorial%20Hospital!5e0!3m2!1sen!2sin!4v1734794828912!5m2!1sen!2sin"
               frameBorder="0"
               className="w-full h-64 lg:h-72"
               allowFullScreen=""
@@ -85,11 +85,19 @@ function Contact() {
               </span>
               <span className="text-gray-700">Lucknow, Uttar Pradesh</span>
             </div>
-            <div className="flex items-center">
-              <span className="text-blue-600 mr-2">
-                <FaPhoneAlt />{" "}
-              </span>
-              <span className="text-gray-700">+91 7007 618 589</span>
+            <div className="flex space-x-5 items-center">
+              <div className="flex items-center">
+                <span className="text-blue-600 mr-2">
+                  <FaPhoneAlt />{" "}
+                </span>
+                <span className="text-gray-700">+91 97179 66193</span>
+              </div>
+              <div className="flex items-center">
+                <span className="text-blue-600 mr-2">
+                  <FaPhoneAlt />{" "}
+                </span>
+                <span className="text-gray-700">+91 97179 66193</span>
+              </div>
             </div>
           </div>
         </div>

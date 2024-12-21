@@ -9,21 +9,28 @@ const DoctorsBanner = () => {
           {/* Repeat the content twice to create a seamless loop */}
           <div className="flex">
             <h2 className="text-white text-2xl md:text-4xl font-bold mx-2 md:mx-6">
-              CARDIOLOGIST
+              ORTHOPEDIC
             </h2>
             <span className="text-black text-3xl md:text-5xl">
               <TbMedicalCross />
             </span>
 
             <h2 className="text-white text-2xl md:text-4xl font-bold mx-2 md:mx-6">
-              NEUROLOGIST
+              OBSTETRICS
             </h2>
             <span className="text-black text-3xl md:text-5xl">
               <TbMedicalCross />
             </span>
 
             <h2 className="text-white text-2xl md:text-4xl font-bold mx-2 md:mx-6">
-              GYNECOLOGIST
+              PAEDIATRIC
+            </h2>
+            <span className="text-black text-3xl md:text-5xl">
+              <TbMedicalCross />
+            </span>
+
+            <h2 className="text-white text-2xl md:text-4xl font-bold mx-2 md:mx-6">
+              SURGEON
             </h2>
           </div>
 
@@ -33,21 +40,28 @@ const DoctorsBanner = () => {
 
           <div className="flex">
             <h2 className="text-white text-2xl md:text-4xl font-bold mx-2 md:mx-6">
-              CARDIOLOGIST
+              ORTHOPEDIC
             </h2>
             <span className="text-black text-3xl md:text-5xl">
               <TbMedicalCross />
             </span>
 
             <h2 className="text-white text-2xl md:text-4xl font-bold mx-2 md:mx-6">
-              NEUROLOGIST
+              OBSTETRICS
             </h2>
             <span className="text-black text-3xl md:text-5xl">
               <TbMedicalCross />
             </span>
 
             <h2 className="text-white text-2xl md:text-4xl font-bold mx-2 md:mx-6">
-              GYNECOLOGIST
+              PAEDIATRIC
+            </h2>
+            <span className="text-black text-3xl md:text-5xl">
+              <TbMedicalCross />
+            </span>
+
+            <h2 className="text-white text-2xl md:text-4xl font-bold mx-2 md:mx-6">
+              SURGEON
             </h2>
           </div>
 
@@ -57,21 +71,28 @@ const DoctorsBanner = () => {
 
           <div className="flex">
             <h2 className="text-white text-2xl md:text-4xl font-bold mx-2 md:mx-6">
-              CARDIOLOGIST
+              ORTHOPEDIC
             </h2>
             <span className="text-black text-3xl md:text-5xl">
               <TbMedicalCross />
             </span>
 
             <h2 className="text-white text-2xl md:text-4xl font-bold mx-2 md:mx-6">
-              NEUROLOGIST
+              OBSTETRICS
             </h2>
             <span className="text-black text-3xl md:text-5xl">
               <TbMedicalCross />
             </span>
 
             <h2 className="text-white text-2xl md:text-4xl font-bold mx-2 md:mx-6">
-              GYNECOLOGIST
+              PAEDIATRIC
+            </h2>
+            <span className="text-black text-3xl md:text-5xl">
+              <TbMedicalCross />
+            </span>
+
+            <h2 className="text-white text-2xl md:text-4xl font-bold mx-2 md:mx-6">
+              SURGEON
             </h2>
           </div>
         </div>

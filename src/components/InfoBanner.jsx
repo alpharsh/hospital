@@ -12,7 +12,7 @@ const InfoBanner = () => {
           <div className="bg-white text-blue-500 rounded-full p-3 md:p-5">
             <CiMedicalCase className=' text-2xl md:text-3xl'/>
           </div>
-          <p className="text-[0.8rem] md:text-3xl font-semibold leading-tight font-Bricolage-Grotesque md:w-[42rem]">Since 40+ Yrs We’re Serving with Medical group more than 5,624+ Patients</p>
+          <p className="text-[0.8rem] md:text-3xl font-semibold leading-tight font-Bricolage-Grotesque md:w-[42rem]">Since 1985 We’re Serving with Medical group more than 1,00,000+ Patients</p>
         </div>
 
         {/* Right Section: Contact Us Button */}

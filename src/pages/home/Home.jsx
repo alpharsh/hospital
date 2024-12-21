@@ -81,7 +81,7 @@ function Home() {
               </div>
             </h1>
             <p className="mb-8 font-sans text-lg max-w-lg">
-              RD Memorial Hospital is a testimony and a source of hope of
+              R D Memorial Hospital is a testimony and a source of hope of
               quality health care for patients for more than 5 years now. The
               organizational vision is to be an institution whose healthcare
               delivery improves the vast quality of lives, highly recommended
@@ -176,7 +176,7 @@ function Home() {
           <div className="flex items-center space-x-12">
             <div className="text-center">
               <p className="text-3xl font-bold text-black">
-                <CountUp end={5624} enableScrollSpy={true} />+
+                <CountUp end={100000} enableScrollSpy={true} />+
               </p>
               <hr className="border border-blue-300 w-full mt-1" />
               <p className="text-gray-600 text-sm md:text-base leading-tight">
@@ -227,7 +227,7 @@ function Home() {
                 className="w-24 md:w-20 h-24 md:h-20 mb-4"
               />
               <p className="text-2xl md:text-xl font-bold mb-2 font-Bricolage-Grotesque">
-                +123 (4567) 890
+                +91 97179 66193
               </p>
               <p className="text-base leading-tight text-gray-600">
                 There is a standard operating procedure from the time the

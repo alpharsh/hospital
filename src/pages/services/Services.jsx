@@ -49,21 +49,21 @@ const centers = [
 const doctors = [
   {
     name: "Dr. Vijay Kushwaha ",
-    specialty: "Ophthalmologist",
+    specialty: "Physician",
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1661745717091-488b4d4af658?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 4,
   },
   {
     name: "Dr. Kumar Saurav Kushwaha",
-    specialty: "MD Physician, Minilab Surgeon",
+    specialty: "Sonologist, Minilab Surgeon",
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1661746228321-8de24c08c6a2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 5,
   },
   {
-    name: "Dr. Reetu Singh Kushwaha",
-    specialty: "Ophthalmologist",
+    name: "Dr. Ritu Singh Kushwaha",
+    specialty: "OBS & GYN",
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1661741194134-c533748d8117?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 4,
@@ -77,6 +77,13 @@ const doctors = [
   },
   {
     name: "Dr. Akbar Alam",
+    specialty: "Surgeon",
+    imageUrl:
+      "https://plus.unsplash.com/premium_photo-1661690013376-9c1b73f0b16c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    rating: 5,
+  },
+  {
+    name: "Dr. Ashok Singh",
     specialty: "Surgeon",
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1661690013376-9c1b73f0b16c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",

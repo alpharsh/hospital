@@ -31,7 +31,7 @@ const AboutMedical = () => {
           {/* About Us Description */}
           <h3 className="text-2xl md:text-4xl font-semibold">About Us</h3>
           <p className="md:text-lg leading-tight">
-            Since 1984 We're working Medical group of more than 1200+ Patients
+            Since 1985 We're working Medical group of more than 1,00,000+ Patients
             help from our medical.
           </p>
 

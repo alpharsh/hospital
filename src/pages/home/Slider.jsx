@@ -4,14 +4,9 @@ import { FaChevronRight } from "react-icons/fa";
 
 const slides = [
   {
-    image: "slideimg1.png",
-    heading: "Proton Cancer Centre",
-    description: "India's First Advanced Cancer Centre Is Accredited By JCI",
-  },
-  {
     image: "slideimg2.png",
-    heading: "Proton Therapy",
-    description: "Over 600 lives touched with the revolutionary Proton Therapy",
+    heading: "UltraSound Facility",
+    description: "State-of-the-art ultrasound facility for accurate diagnosis",
   },
   {
     image: "slideimg3.png",
