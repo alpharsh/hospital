@@ -219,20 +219,16 @@ function Home() {
             {/* Booking Section */}
             <div className="flex flex-col space-y-2 items-center text-center bg-white p-5 rounded-3xl  w-full  mx-4 my-4">
               <h3 className="text-2xl md:text-xl font-bold mb-1 uppercase">
-                Comprehensive Care
+                AYUSHMAN BHARAT YOJANA
               </h3>
               <img
-                src="/img2.png"
+                src="/pmjay.png"
                 alt="Booking"
-                className="w-24 md:w-20 h-24 md:h-20 mb-4"
+                className="w-24 md:w-24 h-24 md:h-24 mb-4"
               />
-              <p className="text-2xl md:text-xl font-bold mb-2 font-Bricolage-Grotesque">
-                +91 97179 66193
-              </p>
               <p className="text-base leading-tight text-gray-600">
-                There is a standard operating procedure from the time the
-                disease is diagnosed to the time the patient is cured or
-                developed immunity against that disease.
+                Get free treatment up to ₹5 lakhs annually under this scheme,
+                ensuring affordable and quality healthcare for all.
               </p>
             </div>
 
