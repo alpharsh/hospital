@@ -42,7 +42,7 @@ const Footer = () => {
             +91 97179 66193
           </a>
           <a
-            href="tel:+91 97179 66193"
+            href="tel:+91 93351 55072"
             className="text-base hover:text-gray-300 transition duration-300"
           >
             +91 93351 55072
@@ -100,7 +100,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="mt-10 border-t w-[85%] mx-auto rounded-3xl border-blue-700 pt-4 text-center text-sm md:text-base">
+      <div className="mt-10 border-t w-[85%] mx-auto rounded-3xl border-blue-700 pt-3 text-center text-sm md:text-base">
         <p>
           &copy; {new Date().getFullYear()} RDM Hospital. All rights reserved.
         </p>
