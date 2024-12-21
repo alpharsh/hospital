@@ -100,7 +100,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="mt-8 border-t border-gray-500 pt-4 text-center text-sm md:text-base">
+      <div className="mt-10 border-t w-[85%] mx-auto rounded-3xl border-blue-700 pt-4 text-center text-sm md:text-base">
         <p>
           &copy; {new Date().getFullYear()} RDM Hospital. All rights reserved.
         </p>

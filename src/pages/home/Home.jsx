@@ -173,7 +173,7 @@ function Home() {
           </div>
 
           {/* Stats Section */}
-          <div className="flex items-center space-x-4 md:space-x-12">
+          <div className="flex items-center justify-center space-x-4 md:space-x-12">
             <div className="text-center flex-none">
               <span className="text-[1.35rem] md:text-2xl font-bold text-black">
                 <CountUp end={100000} enableScrollSpy={true} />+
