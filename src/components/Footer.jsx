@@ -56,7 +56,7 @@ const Footer = () => {
             href="mailto:example@gmail.com"
             className="text-base hover:text-gray-300 transition duration-300"
           >
-            example@gmail.com
+            rdmemorialhosp@gmail.com
           </a>
 
           <h3 className="font-semibold text-lg mt-6 mb-3 uppercase">
