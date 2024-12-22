@@ -48,21 +48,23 @@ function Home() {
           <div className="mt-[3.2rem] md:hidden">
             <Slider />
           </div>
+          {/* Mobile view services cards */}
           <div className="bg-transparent md:hidden py-5 pb-1">
             <div className="w-11/12 md:w-4/5 lg:max-w-[1200px] mx-auto">
               <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 md:gap-6">
                 {services.map((service) => (
-                  <div
+                  <Link
                     key={service.id}
-                    className="flex flex-col items-center justify-center p-3 md:p-6 border bg-white/90 drop-shadow-2xl rounded-2xl transition-shadow duration-300"
+                    to="/contact"
+                    className="flex flex-col items-center justify-center p-3 md:p-6 border bg-white/90 drop-shadow-2xl rounded-2xl transition-shadow duration-300 hover:shadow-lg"
                   >
-                    <div className="text-3xl md:text-5xl mb-4">
-                      {service.icon}
-                    </div>
-                    <h3 className="text-sm font-medium leading-tight text-center">
-                      {service.title}
-                    </h3>
-                  </div>
+                      <div className="text-3xl md:text-5xl mb-4">
+                        {service.icon}
+                      </div>
+                      <h3 className="text-sm font-medium leading-tight text-center">
+                        {service.title}
+                      </h3>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -194,6 +196,24 @@ function Home() {
             </div>
           </div>
         </div>
+
+        <div className="md:hidden mt-12">
+          <div className="flex flex-col shadow-2xl shadow-[#0074D1] space-y-2 items-center text-center bg-white p-5 rounded-3xl  w-4/5 mx-auto my-4">
+            <h3 className="text-xl md:text-xl font-bold mb-1">
+              Ayushman Bharat Yojana
+            </h3>
+            <img
+              src="/pmjay.png"
+              alt="Booking"
+              className="w-24 md:w-24 h-24 md:h-24 mb-4"
+            />
+            <p className="text-base leading-tight text-gray-600">
+              Get free treatment up to ₹5 lakhs annually under this scheme,
+              ensuring affordable and quality healthcare for all.
+            </p>
+          </div>
+        </div>
+
         <div className="hidden md:block">
           <div className="flex w-4/5 lg:max-w-[1000px] mt-10 md:mt-24 mx-auto flex-col lg:flex-row justify-around items-center">
             {/* Professional Section */}
