@@ -29,42 +29,21 @@ function Contact() {
       {/* Appointment Section */}
       <div className="flex flex-col lg:max-w-[1200px] w-11/12 md:w-4/5 mx-auto lg:flex-row items-center justify-center lg:space-x-12 p-4 py-10 lg:p-16 bg-white">
         <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-          <h2 className="text-3xl md:text-5xl font-bold text-blue-700 mb-3 md:mb-4 font-Bricolage-Grotesque">
+          {/* <h2 className="text-3xl md:text-5xl font-bold text-blue-700 mb-3 md:mb-4 font-Bricolage-Grotesque">
             Book Appointment
           </h2>
           <p className="text-gray-600 text-[1rem] md:text-xl leading-tight mb-6">
             Make an Online Appointment Booking For Treatment Patients
-          </p>
-          <form className="space-y-6">
-            <div className="flex flex-col lg:flex-row lg:space-x-4">
-              <input
-                type="text"
-                placeholder="Name"
-                className="border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 p-2 w-full mb-4 lg:mb-0"
-              />
-              <input
-                type="email"
-                placeholder="Email Address"
-                className="border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 p-2 w-full"
-              />
-            </div>
-            <div className="flex flex-col lg:flex-row lg:space-x-4">
-              <input
-                type="text"
-                placeholder="Interested in"
-                className="border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 p-2 w-full mb-4 lg:mb-0"
-              />
-              <input
-                type="text"
-                placeholder="Phone Number"
-                className="border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 p-2 w-full"
-              />
-            </div>
-            <textarea
-              placeholder="Message"
-              className="border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 p-2 w-full h-32"
-            ></textarea>
-          </form>
+          </p> */}
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSf1KUZICwbUHuWFO94gsXZbu8vPz4K3XotkAC6md2jJc5zf7w/viewform?embedded=true"
+            className="w-[300px] h-[500px] md:w-[540px] md:h-[537px]"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+          >
+            Loading…
+          </iframe>
         </div>
         <div className="w-full lg:w-1/2">
           <div className="relative rounded-3xl overflow-hidden shadow-lg">
