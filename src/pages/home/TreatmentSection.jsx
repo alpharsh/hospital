@@ -3,7 +3,7 @@ import React from "react";
 const treatments = [
   {
     title: "OPD",
-    subtitle: "Digital X-Ray",
+    subtitle: "Outpatient Department",
     imageUrl:
       "https://www.corashospital.com/wp-content/uploads/2024/02/opd-fotor-2024020217558-scaled.jpg",
   },
@@ -14,15 +14,25 @@ const treatments = [
       "https://cdn-5d9c5f14f911c90950a6b4d8.closte.com/wp-content/uploads/2020/04/x-rays-el-paso-print-sheet-1024x683.jpeg",
   },
   {
-    title: "DENTAL",
-    subtitle: "Digital X-Ray",
+    title: "ECG",
+    subtitle: "Electrocardiogram",
     imageUrl:
       "https://smb.ibsrv.net/imageresizer/image/blog_images/1200x1200/6007/453920/0170678001639425089.jpg",
   },
   {
-    title: "CARDIO",
-    subtitle: "Digital X-Ray",
-    imageUrl: "https://medmonks.com/home/img/blog/cardiologist-india.jpg",
+    title: "PATHOLOGY",
+    subtitle: "Laboratory Testing",
+    imageUrl: "https://media.istockphoto.com/id/519559505/photo/microscope.jpg?s=612x612&w=0&k=20&c=rAsZn6AYnxz7Zy1XASPTjY5jqRFZ8mj9k5fylazvnP8=",
+  },
+  {
+    title: "HDU/ICU",
+    subtitle: "High Dependency Unit",
+    imageUrl: "https://www.sunwaymedicalvelocity.com.my/images/uploads/editor/product/SVMC2104120820-3.jpg",
+  },
+  {
+    title: "HSG",
+    subtitle: "Hysterosalpingography",
+    imageUrl: "https://img.auntminnie.com/files/base/smg/all/image/2017/10/am.2017_08_25_13_47_26_468_uterus_pelvic_400.png?auto=format%2Ccompress&q=70&w=400",
   },
 ];
 
