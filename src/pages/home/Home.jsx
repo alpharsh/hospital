@@ -16,7 +16,7 @@ import CountUp from "react-countup";
 import { Link } from "react-router-dom";
 
 const services = [
-  { id: 1, title: "Book Appointment", icon: <IoCalendarOutline /> },
+  { id: 1, title: "Book Appointment", icon: <IoCalendarOutline />, link: "/contact"  },
   { id: 2, title: "Book Check-Up", icon: <TbCheckupList /> },
   { id: 3, title: "Consult Online", icon: <RiChatSmile2Line /> },
   { id: 4, title: "Buy Medicine", icon: <GiMedicines /> },
@@ -55,7 +55,7 @@ function Home() {
                 {services.map((service) => (
                   <Link
                     key={service.id}
-                    to="/contact"
+                    to={service.link}
                     className="flex flex-col items-center justify-center p-3 md:p-6 border bg-white/90 drop-shadow-2xl rounded-2xl transition-shadow duration-300 hover:shadow-lg"
                   >
                       <div className="text-3xl md:text-5xl mb-4">
