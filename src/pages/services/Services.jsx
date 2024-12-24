@@ -28,7 +28,7 @@ const centers = [
     description:
       "Our practices in orthopedic sub-specialties include care of bone, joint and muscle in a bid to get total body motion and strength",
     imageUrl:
-      "https://plus.unsplash.com/premium_photo-1673773401710-d23ef113e06f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D0",
+      "https://www.kaizenhospitals.com/images/departments/arthritis-arth1_0%20(1).jpg",
   },
   {
     title: "Pediatrics",
@@ -56,7 +56,7 @@ const doctors = [
   },
   {
     name: "Dr. Kumar Saurav Kushwaha",
-    specialty: "Sonologist, Minilab Surgeon",
+    specialty: "Physician, Minilap Surgeon",
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1661746228321-8de24c08c6a2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 5,
