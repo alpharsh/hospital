@@ -15,7 +15,7 @@ const Footer = () => {
             <img
               src="/rdmlogo.png"
               alt="Logo"
-              className="h-12 w-auto object-contain"
+              className="h-10 w-auto object-contain"
             />
           </div>
           <p className="text-center md:text-left text-base leading-relaxed">
@@ -53,7 +53,7 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-start">
           <h3 className="font-semibold text-lg mb-3 uppercase">Email Us</h3>
           <a
-            href="mailto:example@gmail.com"
+            href="mailto:rdmemorialhosp@gmail.com"
             className="text-base hover:text-gray-300 transition duration-300"
           >
             rdmemorialhosp@gmail.com
