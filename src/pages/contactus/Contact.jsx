@@ -37,7 +37,7 @@ function Contact() {
           </p> */}
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSf1KUZICwbUHuWFO94gsXZbu8vPz4K3XotkAC6md2jJc5zf7w/viewform?embedded=true"
-            className="w-[340px] h-[1060px] mx-auto md:w-[540px] md:h-[537px]"
+            className="w-[340px] h-[1070px] mx-auto md:w-[540px] md:h-[537px]"
             frameborder="0"
             marginheight="0"
             marginwidth="0"
