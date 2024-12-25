@@ -28,16 +28,10 @@ function Contact() {
 
       {/* Appointment Section */}
       <div className="flex flex-col pt-4 lg:max-w-[1200px] w-full md:w-4/5 mx-auto lg:flex-row items-center justify-center lg:space-x-12 py-10 lg:p-16 bg-white">
-        <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-          {/* <h2 className="text-3xl md:text-5xl font-bold text-blue-700 mb-3 md:mb-4 font-Bricolage-Grotesque">
-            Book Appointment
-          </h2>
-          <p className="text-gray-600 text-[1rem] md:text-xl leading-tight mb-6">
-            Make an Online Appointment Booking For Treatment Patients
-          </p> */}
+        <div className="w-[340px] h-[1090px] mx-auto md:w-[540px] md:h-[537px] lg:w-1/2 mb-8 lg:mb-0 overflow-hidden">
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSf1KUZICwbUHuWFO94gsXZbu8vPz4K3XotkAC6md2jJc5zf7w/viewform?embedded=true"
-            className="w-[340px] h-[1070px] mx-auto md:w-[540px] md:h-[537px]"
+            className="w-full h-full"
             frameborder="0"
             marginheight="0"
             marginwidth="0"
