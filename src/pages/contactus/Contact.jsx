@@ -27,7 +27,7 @@ function Contact() {
       </div>
 
       {/* Appointment Section */}
-      <div className="flex flex-col pt-3 lg:max-w-[1200px] w-11/12 md:w-4/5 mx-auto lg:flex-row items-center justify-center lg:space-x-12 py-10 lg:p-16 bg-white">
+      <div className="flex flex-col pt-4 lg:max-w-[1200px] w-full md:w-4/5 mx-auto lg:flex-row items-center justify-center lg:space-x-12 py-10 lg:p-16 bg-white">
         <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
           {/* <h2 className="text-3xl md:text-5xl font-bold text-blue-700 mb-3 md:mb-4 font-Bricolage-Grotesque">
             Book Appointment
@@ -37,7 +37,7 @@ function Contact() {
           </p> */}
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSf1KUZICwbUHuWFO94gsXZbu8vPz4K3XotkAC6md2jJc5zf7w/viewform?embedded=true"
-            className="w-[340px] h-[1090px] mx-auto md:w-[540px] md:h-[537px]"
+            className="w-[340px] h-[1070px] mx-auto md:w-[540px] md:h-[537px]"
             frameborder="0"
             marginheight="0"
             marginwidth="0"
@@ -45,7 +45,7 @@ function Contact() {
             Loading…
           </iframe>
         </div>
-        <div className="w-full lg:w-1/2 px-5">
+        <div className="w-4/5 lg:w-1/2 mx-auto">
           <div className="relative rounded-3xl overflow-hidden shadow-lg">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d460894.4613911015!2d81.4519194!3d25.5137837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399ad25dad8c7e49%3A0xca7892c13ea4752d!2sR%20D%20Memorial%20Hospital!5e0!3m2!1sen!2sin!4v1734794828912!5m2!1sen!2sin"
