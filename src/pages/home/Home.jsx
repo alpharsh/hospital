@@ -84,7 +84,7 @@ function Home() {
             </h1>
             <p className="mb-8 font-sans text-lg max-w-lg">
               R D Memorial Hospital is a testimony and a source of hope of
-              quality health care for patients for more than 5 years now. The
+              quality health care for patients for more than 40 years now. The
               organizational vision is to be an institution whose healthcare
               delivery improves the vast quality of lives, highly recommended
               for passionate and genuine caregivers.

@@ -17,7 +17,7 @@ const treatments = [
     title: "ECG",
     subtitle: "Electrocardiogram",
     imageUrl:
-      "https://smb.ibsrv.net/imageresizer/image/blog_images/1200x1200/6007/453920/0170678001639425089.jpg",
+      "https://miro.medium.com/v2/resize:fit:1400/1*8bNXX7Q-X1iRDjoHeicu6g.jpeg",
   },
   {
     title: "PATHOLOGY",

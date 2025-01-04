@@ -56,7 +56,7 @@ function Contact() {
               <span className="text-blue-600 mr-2">
                 <FaLocationDot />
               </span>
-              <span className="text-gray-700">Lucknow, Uttar Pradesh</span>
+              <span className="text-gray-700">Prayagraj, Uttar Pradesh</span>
             </div>
             <div className="flex space-x-5 items-center">
               <div className="flex items-center">
