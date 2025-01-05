@@ -30,7 +30,7 @@ function Contact() {
       <div className="flex flex-col pt-8 lg:max-w-[1200px] w-full md:w-4/5 mx-auto lg:flex-row items-center justify-center lg:space-x-12 py-10 lg:p-16 bg-white">
         <div className="w-full h-[63.125rem] mx-auto md:w-[540px] md:h-[537px] lg:w-1/2 mb-8 lg:mb-0 overflow-hidden">
           <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSf1KUZICwbUHuWFO94gsXZbu8vPz4K3XotkAC6md2jJc5zf7w/viewform?embedded=true"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdAn_m6jqkDJn7gIDh2LA5SQ51HDVWMzZTJpwUwk9Zjl-kKag/viewform?embedded=true"
             className="w-full h-full"
             frameborder="0"
             marginheight="0"
